@@ -19,24 +19,24 @@ weight = 10
   icon = "files-o"
   icon_pack = "fa"
   name = "Data Driven"
-  description = "..."
+  #description = "..."
   
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
   name = "C++"
-  description = "..."
+  #description = "..."
   
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
   name = "Java"
-  description = "..."
+  #description = "..."
   
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
   name = "C"
-  description = "..."
+  #description = "..."
 
 +++
