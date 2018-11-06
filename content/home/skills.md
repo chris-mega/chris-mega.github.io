@@ -4,13 +4,13 @@ widget = "featurette"  # Do not modify this line!
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = false
+active = true
 
-title = ""
+title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 20
+weight = 10
 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # See `config.toml` for more info on available icons.
@@ -24,7 +24,7 @@ weight = 20
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
-  name = "Math"
+  name = "C++"
   description = "..."
 
 +++

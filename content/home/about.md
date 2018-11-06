@@ -18,7 +18,7 @@ weight = 5
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
-  course = "Bachelor of Science in Comuter Science"
+  course = "Bachelor of Science in Computer Science"
   institution = "University of Manitoba"
   year = 2020
 
