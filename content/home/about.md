@@ -18,6 +18,10 @@ weight = 5
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
+  course = "Bachelor of Science in Comuter Science"
+  institution = "University of Manitoba"
+  year = 2020
+  
   course = "High School"
   institution = "Windsor Park Collegiate"
   year = 2016
