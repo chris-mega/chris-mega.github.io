@@ -32,5 +32,11 @@ weight = 10
   icon_pack = "fa"
   name = "Java"
   description = "..."
+  
+[[feature]]
+  icon = "pencil"
+  icon_pack = "fa"
+  name = "C"
+  description = "..."
 
 +++
