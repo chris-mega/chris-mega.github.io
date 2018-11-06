@@ -11,8 +11,8 @@ weight = 5
 [interests]
   interests = [
     "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Computer Graphics",
+    "Software Engineering"
   ]
 
 # List your qualifications (such as academic degrees).
