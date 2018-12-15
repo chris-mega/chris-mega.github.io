@@ -1,4 +1,5 @@
 Personal portfolio, not finished yet.
+Used Hugo static website generator and Academic template.
 
 # Template's information:
 
