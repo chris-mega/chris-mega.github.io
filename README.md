@@ -1,4 +1,9 @@
-# Academic Kickstart
+Personal portfolio, not finished yet.
+Used Hugo static website generator and Academic template.
+
+# Template's information:
+
+## Academic Kickstart
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
 
@@ -6,18 +11,18 @@
 
 [![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
 
-## Getting Started
+### Getting Started
 
 The following two methods describe how to install in the cloud using your web browser and how to install on your PC using the Command Prompt/Terminal app.
 
-### Quick install using your web browser
+#### Quick install using your web browser
 
 1. [Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
     * Netlify will provide you with a customizable URL to access your new site
 2. On GitHub, go to your newly created `academic-kickstart` repository and edit `config.toml` to personalize your site. Shortly after saving the file, your site will automatically update
 3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://themes.gohugo.io/theme/academic/)
 
-### Install on your PC
+#### Install on your PC
 
 Prerequisites:
 
@@ -43,7 +48,7 @@ Prerequisites:
   
 4. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it.
 
-## License
+### License
 
 Copyright 2017 [George Cushen](https://georgecushen.com).
 
