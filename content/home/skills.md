@@ -15,28 +15,17 @@ weight = 10
 # Add/remove as many `[[feature]]` blocks below as you like.
 # See `config.toml` for more info on available icons.
 
-[[feature]]
-  icon = "files-o"
-  icon_pack = "fa"
-  name = "Data Driven"
-  #description = "..."
   
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
-  name = "C++"
+  name = "C/C++"
   #description = "..."
   
 [[feature]]
   icon = "pencil"
   icon_pack = "fa"
   name = "Java"
-  #description = "..."
-  
-[[feature]]
-  icon = "pencil"
-  icon_pack = "fa"
-  name = "C"
   #description = "..."
 
 +++
