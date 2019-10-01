@@ -4,6 +4,30 @@
     
     <url>
     
+      <loc>https://chris-mega.github.io/project/iros2019/</loc>
+      <lastmod>2019-09-27T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://chris-mega.github.io/project/fira2019/</loc>
+      <lastmod>2019-08-27T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://chris-mega.github.io/project/fira2018/</loc>
+      <lastmod>2018-08-27T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://chris-mega.github.io/posts/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
@@ -36,6 +60,15 @@
     
     <url>
     
+      <loc>https://chris-mega.github.io/project/</loc>
+      <lastmod>2019-09-27T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://chris-mega.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -44,7 +77,17 @@
     
     <url>
     
+      <loc>https://chris-mega.github.io/tags/robotics/</loc>
+      <lastmod>2019-09-27T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://chris-mega.github.io/tags/</loc>
+      <lastmod>2019-09-27T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     

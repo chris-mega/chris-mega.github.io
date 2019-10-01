@@ -20,16 +20,15 @@ weight = 5
 [[education.courses]]
   course = "Bachelor of Science in Computer Science"
   institution = "University of Manitoba"
-  year = 2020
+  year = 2021
 
 [[education.courses]]
   course = "High School"
   institution = "Windsor Park Collegiate"
   year = 2016
- 
+
 +++
 
 # Biography
 
 Hola! My name is Christian Melendez, I am a Computer Science student at the University of Manitoba. I love my family, technology, music and learn new things. I am interested in humanoid robotics
- 
