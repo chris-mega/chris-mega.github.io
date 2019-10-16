@@ -60,6 +60,15 @@
     
     <url>
     
+      <loc>https://chris-mega.github.io/tags/music/</loc>
+      <lastmod>2019-09-27T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://chris-mega.github.io/project/</loc>
       <lastmod>2019-09-27T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -79,6 +88,15 @@
     
       <loc>https://chris-mega.github.io/tags/robotics/</loc>
       <lastmod>2019-09-27T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://chris-mega.github.io/tags/sports/</loc>
+      <lastmod>2019-08-27T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     

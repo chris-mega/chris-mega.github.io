@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Robotics on Welcome</title>
-    <link>https://chris-mega.github.io/tags/robotics/</link>
-    <description>Recent content in Robotics on Welcome</description>
+    <title>Sports on Welcome</title>
+    <link>https://chris-mega.github.io/tags/sports/</link>
+    <description>Recent content in Sports on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 27 Sep 2019 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://chris-mega.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-mega.github.io/tags/sports/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Iros 2019</title>
-      <link>https://chris-mega.github.io/project/iros2019/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://chris-mega.github.io/project/iros2019/</guid>
-      <description>Participation with team Snobots for University of Manitoba in IROS 2019 in Macau. We are programming two robots to play music together with a human!
-Leaning more about OpenCV, Inverse Kinematics and music tempos
-Qualification video</description>
-    </item>
     
     <item>
       <title>Fira 2019</title>

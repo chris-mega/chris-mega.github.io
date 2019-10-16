@@ -34,4 +34,16 @@ weight = 10
   name = "Python"
   #description = "..."
 
+[[feature]]
+  icon = "pencil"
+  icon_pack = "fa"
+  name = "OpenCV"
+  #description = "..."
+
+[[feature]]
+  icon = "pencil"
+  icon_pack = "fa"
+  name = "OpenGL"
+  #description = "..."
+
 +++
