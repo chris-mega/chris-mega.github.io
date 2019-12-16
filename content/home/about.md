@@ -31,4 +31,4 @@ weight = 5
 
 # Biography
 
-Hola! My name is Christian Melendez, I am a Computer Science student at the University of Manitoba. I love my family, technology, music and learn new things. I am interested in humanoid robotics and game animation
+Hola! My name is Christian Melendez, I am a Computer Science student at the University of Manitoba. I love my family, technology, music and learning new things. I am interested in humanoid robotics and game dev
