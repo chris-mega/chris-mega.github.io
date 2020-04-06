@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music | Chris</title>
+    <link>/tags/music/</link>
+      <atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <description>Music</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Music</title>
+      <link>/tags/music/</link>
+    </image>
+    
+    <item>
+      <title>IROS 2019</title>
+      <link>/competition/iros2019/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/competition/iros2019/</guid>
+      <description>&lt;p&gt;Participation with team Snobots for University of Manitoba in &lt;strong&gt;IROS 2019&lt;/strong&gt; in Macau. We programmed two robots to play music together with a human!&lt;/p&gt;
+&lt;p&gt;Leaned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot-interaction and music theory.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=hE4ZpEnaQtY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We got 2nd place among 6 teams! The prize was a hand sponsored by 
+&lt;a href=&#34;https://www.seedrobotics.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seed Robotics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.sci.umanitoba.ca/news/um-computer-science-team-achieve-2nd-place-finish-in-prestigious-robotics-competition-overseas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UM Press&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some solo videos of each part of the performance:&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=Lp4dbFI_9yg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oscar - Sound check &amp;ldquo;Billie Jean&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=ioqXlPz_vdU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Polaris - Sound check&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=982TSPjSlCA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snobots Band - Knocking on Heaven&amp;rsquo;s Door&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=eJbvUqCcffI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snobots Band - Glorious Years&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./iros2019.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

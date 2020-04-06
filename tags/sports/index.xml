@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports | Chris</title>
+    <link>/tags/sports/</link>
+      <atom:link href="/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sports</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Sports</title>
+      <link>/tags/sports/</link>
+    </image>
+    
+    <item>
+      <title>FIRA 2019</title>
+      <link>/competition/fira2019/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/competition/fira2019/</guid>
+      <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Changwon, South Korea.&lt;/p&gt;
+&lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2019&lt;/strong&gt;.
+As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spartan Race&lt;/strong&gt; - 1st Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;United Soccer&lt;/strong&gt; - 2nd Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Triple Jump&lt;/strong&gt; - 3rd Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basketball&lt;/strong&gt; - 4th Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marathon&lt;/strong&gt; - 5th Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 5th Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This was a really great experience! We had more challenges this year with the hardware side, which made me learn a lot in just a few days. There were more teams and everybody improved comparing to last year, which made the competition very hard. Teamwork and leadership was something that I definitely practiced this year because we moved to a shared platform. Learned more about the &lt;strong&gt;Robotis-Op3&lt;/strong&gt; Framework and how to adapt it to the lab&amp;rsquo;s purpose, which meant that two different robots could use the same code. Also improved in &lt;strong&gt;OpenCV&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;ROS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=ag4jiWB4jw0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://news.umanitoba.ca/international-success-for-u-of-m-robot-team-at-fira-hurocup/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UManitoba press&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./fira2019.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FIRA 2018</title>
+      <link>/competition/fira2018/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/competition/fira2018/</guid>
+      <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Taichung, Taiwan.&lt;/p&gt;
+&lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2018&lt;/strong&gt;.
+As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Weightlifting&lt;/strong&gt;- 2nd Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Triple Jump&lt;/strong&gt; - 3rd Place (New Event)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Moving Target Archery&lt;/strong&gt; - 4th Place (New Event)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obstacle Run&lt;/strong&gt; - 5th Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 7th Place&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This was a really great experience! I got to practice and learn more about &lt;strong&gt;C++&lt;/strong&gt;, learn &lt;strong&gt;OpenCV&lt;/strong&gt; and a brand new way to code using &lt;strong&gt;ROS&lt;/strong&gt; and &lt;strong&gt;Robotis-OP3 Framework&lt;/strong&gt;.
+I also made friends with my colleagues and other competitors from different countries. Teamwork, thinking outside the box and persistence made our first time competing a good experience with a good positioning among more than 10 teams.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=GU-4sg2ITcE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab&amp;rsquo;s website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./fira2018.JPG&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
