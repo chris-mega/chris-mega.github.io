@@ -55,12 +55,16 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 5th Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This was a really great experience! We had more challenges this year with the hardware side, which made me learn a lot in just a few days. There were more teams and everybody improved comparing to last year, which made the competition very hard. Teamwork and leadership was something that I definitely practiced this year because we moved to a shared platform. Learned more about the &lt;strong&gt;Robotis-Op3&lt;/strong&gt; Framework and how to adapt it to the lab&amp;rsquo;s purpose, which meant that two different robots could use the same code. Also improved in &lt;strong&gt;OpenCV&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;ROS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This was a really great experience! I learned a lot this year. There were more teams and everybody improved comparing to last year, which made the competition harder. Teamwork and leadership were the skills that I definitely practiced this year. The principal challenge was the hardware side, in robotics your code may work, but there are more variables that may make tour program succesful or not like camera calibration, surface roughness, servos and expected target sizes. Also practiced how to change a servo in 10 minutes under pressure 😄&lt;/p&gt;
+&lt;p&gt;We moved to a shared platform, which meant to handle two different robots using the same code and framework (&lt;strong&gt;Robotis-Op3-Framework&lt;/strong&gt; in ROS). I was involved in the design of the architecture and tasks to reach our goals, in addition to the programming of some of the events.&lt;/p&gt;
+&lt;p&gt;Also improved in &lt;strong&gt;OpenCV&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;ROS&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=ag4jiWB4jw0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://news.umanitoba.ca/international-success-for-u-of-m-robot-team-at-fira-hurocup/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UManitoba press&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./fira2019.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part of the Team:&lt;/strong&gt;
+&lt;img src=&#34;./fira2019.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;small&gt;Marshall Jackson, Borui Li, Yanlam Ng, Dr. Meng Cheng Lau, Chris Melendez (me), Louis O&amp;rsquo;Connor, Andy Lun&lt;/small&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -80,13 +84,15 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 7th Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This was a really great experience! I got to practice and learn more about &lt;strong&gt;C++&lt;/strong&gt;, learn &lt;strong&gt;OpenCV&lt;/strong&gt; and a brand new way to code using &lt;strong&gt;ROS&lt;/strong&gt; and &lt;strong&gt;Robotis-OP3 Framework&lt;/strong&gt;.
-I also made friends with my colleagues and other competitors from different countries. Teamwork, thinking outside the box and persistence made our first time competing a good experience with a good positioning among more than 10 teams.&lt;/p&gt;
+&lt;p&gt;This was a really great experience! I got to practice and learn more about &lt;strong&gt;C++&lt;/strong&gt;, learn &lt;strong&gt;OpenCV&lt;/strong&gt; and a brand new way to code for me using &lt;strong&gt;ROS&lt;/strong&gt; and &lt;strong&gt;Robotis-OP3 Framework&lt;/strong&gt; (which uses publishers and subscribers). Also learned how a humanoid robot works: vision and motion planning.
+I also made friends with my colleagues and other competitors from different countries. Teamwork, thinking outside the box, reverse engineering and persistence made our first time competing a good experience with a good positioning among more than 10 teams.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=GU-4sg2ITcE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab&amp;rsquo;s website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./fira2018.JPG&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part of the Team:&lt;/strong&gt;
+&lt;img src=&#34;./fira2018.JPG&#34; alt=&#34;jpg&#34;&gt;
+&lt;small&gt;Chris Melendez (me), Mario Mendez, Jackie Baltes (organizer), Dr. Meng Cheng Lau, Louis O&amp;rsquo;Connor, Borui Li&lt;/small&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Chris</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>FaceTool</title>
+      <link>/project/facebook-likes/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/facebook-likes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crypto-Quidditch</title>
+      <link>/project/crypto-quidditch/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/crypto-quidditch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FABRIK</title>
+      <link>/project/fabrik/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/project/fabrik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SplitIt</title>
+      <link>/project/split-it/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/project/split-it/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
