@@ -5,12 +5,20 @@
     <link>/tags/webdev/</link>
       <atom:link href="/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
     <description>WebDev</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>WebDev</title>
       <link>/tags/webdev/</link>
     </image>
+    
+    <item>
+      <title>SpotiTool</title>
+      <link>/project/spotitool/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/project/spotitool/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FaceTool</title>
