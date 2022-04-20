@@ -5,7 +5,7 @@
     <link>/tags/sports/</link>
       <atom:link href="/tags/sports/index.xml" rel="self" type="application/rss+xml" />
     <description>Sports</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Sports</title>
@@ -13,13 +13,13 @@
     </image>
     
     <item>
-      <title>FIRA 2019</title>
+      <title>FIRA 2019 South Korea- Hurocup Kid Size</title>
       <link>/competition/fira2019/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/competition/fira2019/</guid>
       <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Changwon, South Korea.&lt;/p&gt;
 &lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2019&lt;/strong&gt;.
-As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
+As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we achieved:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Spartan Race&lt;/strong&gt; - 1st Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;United Soccer&lt;/strong&gt; - 2nd Place&lt;/li&gt;
@@ -43,9 +43,9 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
     </item>
     
     <item>
-      <title>FIRA 2018</title>
+      <title>FIRA 2018 Taiwan - Hurocup Kid Size</title>
       <link>/competition/fira2018/</link>
-      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/competition/fira2018/</guid>
       <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Taichung, Taiwan.&lt;/p&gt;
 &lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2018&lt;/strong&gt;.
@@ -66,7 +66,7 @@ I also made friends with my colleagues and other competitors from different coun
 &lt;a href=&#34;http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab&amp;rsquo;s website&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Part of the Team:&lt;/strong&gt;
 &lt;img src=&#34;./fira2018.JPG&#34; alt=&#34;jpg&#34;&gt;
-&lt;small&gt;Chris Melendez (me), Mario Mendez, Jackie Baltes (organizer), Dr. Meng Cheng Lau, Louis O&amp;rsquo;Connor, Borui Li&lt;/small&gt;&lt;/p&gt;
+&lt;small&gt;Chris Melendez (me), Mario Mendez, Dr. Jackie Baltes (organizer), Dr. Meng Cheng Lau, Louis O&amp;rsquo;Connor, Borui Li&lt;/small&gt;&lt;/p&gt;
 </description>
     </item>
     

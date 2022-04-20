@@ -5,7 +5,7 @@
     <link>/tags/music/</link>
       <atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <description>Music</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Music</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>IROS 2019</title>
+      <title>IROS 2019 Macau - Humanoid Application Challenge &#34;Robot Magic and Music</title>
       <link>/competition/iros2019/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/competition/iros2019/</guid>
       <description>&lt;p&gt;Participation with team Snobots for University of Manitoba in &lt;strong&gt;IROS 2019&lt;/strong&gt; in Macau. We programmed two robots to play music together with a human!&lt;/p&gt;
 &lt;p&gt;Leaned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot-interaction and music theory.&lt;/p&gt;
