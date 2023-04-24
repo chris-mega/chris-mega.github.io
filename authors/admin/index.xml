@@ -5,7 +5,7 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Chris</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Chris</title>
@@ -13,11 +13,22 @@
     </image>
     
     <item>
+      <title>Co-op, internships and robots</title>
+      <link>/post/coop-story/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/coop-story/</guid>
+      <description>&lt;p&gt;Wow, where do I start? This is going to be a long post.
+It was my sophomore year at the University of Manitoba. The Computer Science department&amp;rsquo;s co-op program opens applications for every second-year student. I don&amp;rsquo;t know the exact number of people that applied, but there were over 200 students in the co-op info session. Only 50 were to be selected from all those 200+ students. Everyone was getting excited to apply. You can imagine kids that just became adults not long ago being excited about the possibilities of working for Google, Microsoft or even the recently opened Ubisoft office in Winnipeg and, of course, earning money, gaining independence, getting experience before graduating, making connections, etc. The &amp;ldquo;Hunger Games&amp;rdquo; began.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IROS 2019 Macau - Humanoid Application Challenge &#34;Robot Magic and Music</title>
       <link>/competition/iros2019/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/competition/iros2019/</guid>
-      <description>&lt;p&gt;Participation with team Snobots for University of Manitoba in &lt;strong&gt;IROS 2019&lt;/strong&gt; in Macau. We programmed two robots to play music together with a human!&lt;/p&gt;
+      <description>&lt;p&gt;Participation with team Snobots for University of Manitoba in 
+&lt;a href=&#34;https://www.iros2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IROS 2019&lt;/strong&gt;&lt;/a&gt; in Macau. We programmed two robots to play music together with a human!&lt;/p&gt;
 &lt;p&gt;Leaned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot-interaction and music theory.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=hE4ZpEnaQtY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
@@ -43,9 +54,14 @@
       <link>/competition/fira2019/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/competition/fira2019/</guid>
-      <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Changwon, South Korea.&lt;/p&gt;
-&lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2019&lt;/strong&gt;.
-As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we achieved:&lt;/p&gt;
+      <description>&lt;p&gt;After the success of 
+&lt;a href=&#34;/competition/fira2018/&#34;&gt;2018&amp;rsquo;s competiton&lt;/a&gt;, we participated in 
+&lt;a href=&#34;https://firaworldcup.org/past-events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FIRA 2019&lt;/a&gt; at Changwon, South Korea.&lt;/p&gt;
+&lt;p&gt;This was a really great experience! I learned a lot this year. There were more teams and everybody improved comparing to last year, which made the competition harder. Teamwork and leadership were the skills that I definitely practiced more this year as I was now on charge of the kid-size side of the team. The principal challenge was the hardware side, in robotics your code may work, but there are more variables that may make tour program succesful or not like camera calibration, surface roughness, servos and expected target sizes. Also practiced how to change a servo in 10 minutes under pressure 😁&lt;/p&gt;
+&lt;p&gt;We moved to a shared platform, which meant to handle two different robots using the same code and framework (&lt;strong&gt;Robotis-Op3-Framework&lt;/strong&gt; in ROS) while making it easier to compile by moving the events to Python. I was involved in the design of the architecture and tasks to reach our goals, in addition to the programming of some of the events. That meant more collaboration across the adult and kid size teams.&lt;/p&gt;
+&lt;p&gt;Also improved in &lt;strong&gt;OpenCV&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;ROS&lt;/strong&gt; as after a year and a bit more guidance I could understand more of how everything works. This is our 
+&lt;a href=&#34;https://www.youtube.com/watch?v=ag4jiWB4jw0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qualification video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we achieved:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Spartan Race&lt;/strong&gt; - 1st Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;United Soccer&lt;/strong&gt; - 2nd Place&lt;/li&gt;
@@ -55,16 +71,11 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we achieved:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 5th Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This was a really great experience! I learned a lot this year. There were more teams and everybody improved comparing to last year, which made the competition harder. Teamwork and leadership were the skills that I definitely practiced this year. The principal challenge was the hardware side, in robotics your code may work, but there are more variables that may make tour program succesful or not like camera calibration, surface roughness, servos and expected target sizes. Also practiced how to change a servo in 10 minutes under pressure 😁&lt;/p&gt;
-&lt;p&gt;We moved to a shared platform, which meant to handle two different robots using the same code and framework (&lt;strong&gt;Robotis-Op3-Framework&lt;/strong&gt; in ROS). I was involved in the design of the architecture and tasks to reach our goals, in addition to the programming of some of the events.&lt;/p&gt;
-&lt;p&gt;Also improved in &lt;strong&gt;OpenCV&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;ROS&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=ag4jiWB4jw0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://news.umanitoba.ca/international-success-for-u-of-m-robot-team-at-fira-hurocup/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UManitoba press&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We also got an article written by 
+&lt;a href=&#34;https://news.umanitoba.ca/international-success-for-u-of-m-robot-team-at-fira-hurocup/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UManitoba press&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Part of the Team:&lt;/strong&gt;
 &lt;img src=&#34;./fira2019.jpg&#34; alt=&#34;jpg&#34;&gt;
-&lt;small&gt;Marshall Jackson, Borui Li, Yanlam Ng, Dr. Meng Cheng Lau, Chris Melendez (me), Louis O&amp;rsquo;Connor, Andy Lun&lt;/small&gt;&lt;/p&gt;
+&lt;small&gt;&lt;em&gt;Marshall Jackson&lt;/em&gt; (adult-size), &lt;em&gt;Borui Li&lt;/em&gt; (adult-size), &lt;em&gt;Yanlam Ng&lt;/em&gt; (adult-size), &lt;em&gt;Dr. Meng Cheng Lau&lt;/em&gt; (Post Doc Fellow), &lt;em&gt;Chris Melendez&lt;/em&gt; (me, kid-size), &lt;em&gt;Louis O&amp;rsquo;Connor&lt;/em&gt; (kid-size), &lt;em&gt;Andy Lun&lt;/em&gt; (adult-size)&lt;/small&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -73,9 +84,15 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we achieved:&lt;/p&gt;
       <link>/competition/fira2018/</link>
       <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/competition/fira2018/</guid>
-      <description>&lt;p&gt;Participation with team Snobots-&lt;em&gt;Kid&lt;/em&gt; for University of Manitoba in FIRA 2018 at Taichung, Taiwan.&lt;/p&gt;
-&lt;p&gt;We programmed a robot to compete in diverse sports at &lt;strong&gt;FIRA Hurocup 2018&lt;/strong&gt;.
-As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
+      <description>&lt;p&gt;In 2018, I applied for an undergraduate research award. I had to write some essays about what I want to do in the future, what I am doing to accomplish it and how the labs at the university would be able to help. That&amp;rsquo;s when I came across the 
+&lt;a href=&#34;http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Autonomous Agents Lab (AaLab)&lt;/a&gt;, Dr. John Anderson (Lab Director) and Dr. Meng Cheng &amp;ldquo;Mc&amp;rdquo; Lau (Post Doc Fellow). They showed me around the lab, the research they do and the competitions they have participated in. I got very excited to see the combination of hardware and software without knowing much about the hardware. I wrote my essays and got the award.&lt;/p&gt;
+&lt;p&gt;If I could describe my first month in this lab with one word, it was: Total Confusion (oops, that&amp;rsquo;s two words). The lab just got a new robot as an award from a previous competition: 
+&lt;a href=&#34;https://emanual.robotis.com/docs/en/platform/op3/introduction/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robotis OP3&lt;/a&gt;. So, I was assigned to the Kid-Size team (kid size because it is a small robot, a bit higher than your ankle) to figure out how it works and participate in the upcoming 
+&lt;a href=&#34;https://firaworldcup.org/past-events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FIRA Hurocup 2018&lt;/a&gt;. No one knew exactly how to use it; other student volunteers with more experience had some ideas ported from the previous version, OP2, but the framework for OP3 is different, involving &lt;strong&gt;ROS Kinetic&lt;/strong&gt;, publishers and subscribers and &lt;strong&gt;C++&lt;/strong&gt;. Because I was getting paid by the award, I had times of being by myself there, trying to figure out how everything works and getting guidance on computer vision (&lt;strong&gt;OpenCV&lt;/strong&gt;) and movement animation. There were a lot of trials and errors, but it was very fun. Finally, we could make it work.&lt;/p&gt;
+&lt;p&gt;Unfortunately, but also luckily, the most experienced guy quit, so it allowed me to travel instead with another Kid-Size guy and two adult-size guys to Taichung, Taiwan. This was our 
+&lt;a href=&#34;https://www.youtube.com/watch?v=GU-4sg2ITcE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qualification video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There was a lot of excitement! First time in Asia, representing Canada, seeing 3 months of work finally compete and getting to know people from all over the world. There were also some high expectations from us as &lt;strong&gt;Snobots&lt;/strong&gt; (our official team name) has performed very well in the past years. Now the competition had more teams, old teams got strong, new sporting events were added but both me and my kid-size partner were new on this kind of competition using a new robot.&lt;/p&gt;
+&lt;p&gt;At the end, as &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Weightlifting&lt;/strong&gt;- 2nd Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Triple Jump&lt;/strong&gt; - 3rd Place (New Event)&lt;/li&gt;
@@ -84,15 +101,13 @@ As &lt;strong&gt;Kid-size&lt;/strong&gt; team, we got:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Mini-DRC/Teleop&lt;/strong&gt; - 7th Place&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All-round&lt;/strong&gt; - &lt;em&gt;Fourth Place&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This was a really great experience! I got to practice and learn more about &lt;strong&gt;C++&lt;/strong&gt;, learn &lt;strong&gt;OpenCV&lt;/strong&gt; and a brand new way to code for me using &lt;strong&gt;ROS&lt;/strong&gt; and &lt;strong&gt;Robotis-OP3 Framework&lt;/strong&gt; (which uses publishers and subscribers). Also learned how a humanoid robot works: vision and motion planning.
-I also made friends with my colleagues and other competitors from different countries. Teamwork, thinking outside the box, reverse engineering and persistence made our first time competing a good experience with a good positioning among more than 10 teams.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=GU-4sg2ITcE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab&amp;rsquo;s website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We were actually really impressed to get 4th place all-round due to our experience. This taught me that it isn&amp;rsquo;t about knowledge, it is about persistence, focus, belief, handling stress, collaboration and teamwork.&lt;/p&gt;
+&lt;p&gt;After this amazing experience, I decided to stay as volunteer for the Aalab.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Part of the Team:&lt;/strong&gt;
 &lt;img src=&#34;./fira2018.JPG&#34; alt=&#34;jpg&#34;&gt;
-&lt;small&gt;Chris Melendez (me), Mario Mendez, Dr. Jackie Baltes (organizer), Dr. Meng Cheng Lau, Louis O&amp;rsquo;Connor, Borui Li&lt;/small&gt;&lt;/p&gt;
+&lt;small&gt;&lt;em&gt;Chris Melendez&lt;/em&gt; (me, kid-size), &lt;em&gt;Mario Mendez&lt;/em&gt; (adult-size), &lt;em&gt;Dr. Jackie Baltes&lt;/em&gt; (organizer), &lt;em&gt;Dr. Meng Cheng Lau&lt;/em&gt; (Post Doc Fellow), &lt;em&gt;Louis O&amp;rsquo;Connor&lt;/em&gt; (kid-size), &lt;em&gt;Borui Li&lt;/em&gt; (adult size)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=XYiV4w-yaQI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;External highlights Video&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

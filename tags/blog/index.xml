@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Chris</title>
+    <link>/tags/blog/</link>
+      <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
+    </image>
+    
+    <item>
+      <title>Co-op, internships and robots</title>
+      <link>/post/coop-story/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/coop-story/</guid>
+      <description>&lt;p&gt;Wow, where do I start? This is going to be a long post.
+It was my sophomore year at the University of Manitoba. The Computer Science department&amp;rsquo;s co-op program opens applications for every second-year student. I don&amp;rsquo;t know the exact number of people that applied, but there were over 200 students in the co-op info session. Only 50 were to be selected from all those 200+ students. Everyone was getting excited to apply. You can imagine kids that just became adults not long ago being excited about the possibilities of working for Google, Microsoft or even the recently opened Ubisoft office in Winnipeg and, of course, earning money, gaining independence, getting experience before graduating, making connections, etc. The &amp;ldquo;Hunger Games&amp;rdquo; began.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
