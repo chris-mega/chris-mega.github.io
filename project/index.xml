@@ -21,10 +21,18 @@
     </item>
     
     <item>
-      <title>Drive-In-19</title>
-      <link>/project/drive-in-19/</link>
+      <title>SyncStream</title>
+      <link>/project/syncstream/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/project/syncstream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ObstacleSlam</title>
+      <link>/project/obstacle-slam/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/drive-in-19/</guid>
+      <guid>/project/obstacle-slam/</guid>
       <description></description>
     </item>
     
