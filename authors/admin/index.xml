@@ -27,25 +27,43 @@ It was my sophomore year at the University of Manitoba. The Computer Science dep
       <link>/competition/iros2019/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/competition/iros2019/</guid>
-      <description>&lt;p&gt;Participation with team Snobots for University of Manitoba in 
-&lt;a href=&#34;https://www.iros2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IROS 2019&lt;/strong&gt;&lt;/a&gt; in Macau. We programmed two robots to play music together with a human!&lt;/p&gt;
-&lt;p&gt;Leaned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot-interaction and music theory.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=hE4ZpEnaQtY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We got 2nd place among 6 teams! The prize was a hand sponsored by 
-&lt;a href=&#34;https://www.seedrobotics.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seed Robotics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
+      <description>&lt;p&gt;In 2019, we signed up to participate in the Humanoid Application Challenge from the international conference 
+&lt;a href=&#34;https://www.iros2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;IROS 2019&lt;/strong&gt;&lt;/a&gt;.
+The competition this year was about magic and music. The sky was the limit regarding what could be achieved. Still, it had to be highly technical, fun and a wowing experience for judges and spectators. Team Snobots has always participated in doing magic and has done very well, even winning a robot in a previous year. This time, because of the music addition and that most of the team members were musical in a way, we decided to take that route instead of magic.&lt;/p&gt;
+&lt;p&gt;In a previous competition, we managed to have our two robots share the same code, so we were excited to try making them play together with us as a human and robot band. Mario, one of our lab members and a drummer, made the motions for our big robot to play drums and&amp;hellip; oh my goodness, the result was the real magic for us, and as soon as we saw it, we were like, we are ready, we don&amp;rsquo;t know how to do the rest, but this is pretty cool, and we are ready! We posted our 
+&lt;a href=&#34;https://www.youtube.com/watch?v=hE4ZpEnaQtY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qualification video&lt;/a&gt; and people were impressed.&lt;/p&gt;
+&lt;p&gt;The real challenge began. Music is hard to program as you need precision, robots can be reasonably accurate, but they have some milliseconds as a margin of error, which can become messy after playing for some time. Adding an extra robot to the scene made it even harder. In the end, we figured it out: UDP signals between the two robots to &amp;ldquo;update&amp;rdquo; each other in which part of the song they are in, an algorithm to measure how long each motion took and make them faster or slower to account for inaccuracies and a timer/calculator for the bpm of the song and how long each motion would take.&lt;/p&gt;
+&lt;p&gt;In between, I learned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot interaction and music theory. Not forgetting also how to be a good showman and interact with the robot through some text-to-speech.
+For more information about my version of visual servoing you can take a look at my 
+&lt;a href=&#34;https://github.com/chris-mega/PianoPlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The trip to Macau was very exciting and long. When we arrived, we had some hardware issues which got me nervous at the moment of performance. We decided to play two simple songs (excluding &amp;ldquo;sound checks&amp;rdquo; that will show off our work with visual servoing and inverse kinematics). One of our songs was in Cantonese, and as soon as we played it, a lot of people entered the room as it is also a very popular song in Macau and Hong Kong. It was really touching.&lt;/p&gt;
+&lt;p&gt;In the end, we got 2nd place among 6 teams! The prize was a hand sponsored by 
+&lt;a href=&#34;https://www.seedrobotics.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seed Robotics&lt;/a&gt;.
+Here is a video of the show (I sometimes cringe at how nervous I was, but I still would do it all over again): 
 &lt;a href=&#34;https://www.sci.umanitoba.ca/news/um-computer-science-team-achieve-2nd-place-finish-in-prestigious-robotics-competition-overseas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UM Press&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Here are some solo videos of each part of the performance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=Lp4dbFI_9yg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oscar - Sound check &amp;ldquo;Billie Jean&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=ioqXlPz_vdU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Polaris - Sound check&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=982TSPjSlCA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snobots Band - Knocking on Heaven&amp;rsquo;s Door&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=eJbvUqCcffI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snobots Band - Glorious Years&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./iros2019.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./iros2019.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;small&gt;&lt;em&gt;Dr. Meng Cheng Lau&lt;/em&gt; (Post Doc Fellow), &lt;em&gt;Chris Melendez&lt;/em&gt; (me)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=mRNElPifuhc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An interesting higlights video&lt;/a&gt; where my profesor talked for a bit&amp;hellip; and I got a cameo!&lt;/p&gt;
 </description>
     </item>
     
