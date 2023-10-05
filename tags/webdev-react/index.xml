@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebDev, React | Chris</title>
+    <link>/tags/webdev-react/</link>
+      <atom:link href="/tags/webdev-react/index.xml" rel="self" type="application/rss+xml" />
+    <description>WebDev, React</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>WebDev, React</title>
+      <link>/tags/webdev-react/</link>
+    </image>
+    
+    <item>
+      <title>FaceTool</title>
+      <link>/project/facebook-likes/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/facebook-likes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

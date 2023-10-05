@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/raven/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/webdev-react-aws/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/spotitool/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/syncstream/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/webdev/</loc>
@@ -42,6 +48,9 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/facebook-likes/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/webdev-react/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/crypto-quidditch/</loc>
@@ -79,12 +88,6 @@
   </url><url>
     <loc>/project/fabrik/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/split-it/</loc>
-    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/webdev-hci/</loc>
-    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/competition/fira2018/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
