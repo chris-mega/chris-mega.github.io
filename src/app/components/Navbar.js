@@ -17,9 +17,9 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-[200] bg-white shadow dark:bg-gray-800">
       <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
-          <a href="/">
-            Chris
-          </a>
+          <Link className="font-bold" href="/">
+            ChrisM
+          </Link>
 
           {/* <!-- Mobile menu button --> */}
           <div className="flex lg:hidden">

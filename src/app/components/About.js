@@ -39,7 +39,7 @@ export default function About() {
         <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
           <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Biography</h1>
           <p className="mt-3 text-gray-600 dark:text-gray-400">
-            Hola! I'm a full stack developer with experience in leveraging technology to solve real-world challenges.
+            Hola! I&apos;m a full stack developer with experience in leveraging technology to solve real-world challenges.
             I specialize in building robust, scalable web applications and crafting intuitive user interfaces. I am also passionate about robotics.
           </p>
         </div>
