@@ -18,7 +18,7 @@ export default function Fira2019() {
         />
         <div className="flex flex-col gap-4">
           <p>
-            After the success of <PostLink href="/competition/fira2018">2018's competiton</PostLink>, we participated in <PostLink href="https://firaworldcup.org/past-events/">FIRA 2019</PostLink> at Changwon, South Korea.
+            After the success of <PostLink href="/competition/fira2018">2018&apos;s competiton</PostLink>, we participated in <PostLink href="https://firaworldcup.org/past-events/">FIRA 2019</PostLink> at Changwon, South Korea.
           </p>
 
           <p>
@@ -73,7 +73,7 @@ export default function Fira2019() {
         height={38}
       />
       <small className="italic">
-        Marshall Jackson (adult-size), Borui Li (adult-size), Yanlam Ng (adult-size), Dr. Meng Cheng Lau (Post Doc Fellow), Chris Melendez (me, kid-size), Louis O'Connor (kid-size), Andy Lun (adult-size)
+        Marshall Jackson (adult-size), Borui Li (adult-size), Yanlam Ng (adult-size), Dr. Meng Cheng Lau (Post Doc Fellow), Chris Melendez (me, kid-size), Louis O&apos;Connor (kid-size), Andy Lun (adult-size)
       </small>
     </div>
   )

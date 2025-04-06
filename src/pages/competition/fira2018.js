@@ -19,14 +19,14 @@ export default function Fira2018() {
         <div className="flex flex-col gap-4">
           <p>
             In 2018, I applied for an undergraduate research award. I had to write some essays about what I want to do in the future, what I am doing to accomplish it and how the labs at the university would be able to help.
-            That's when I came across the{" "}
+            That&apos;s when I came across the{" "}
             <PostLink href="http://aalab.cs.umanitoba.ca/index.php/9-news/70-fira-hurocup-2018">Autonomous Agents Lab (AaLab)</PostLink>
-            , Dr. John Anderson (Lab Director) and Dr. Meng Cheng "Mc" Lau (Post Doc Fellow). They showed me around the lab, the research they do and the competitions they have participated in.
+            , Dr. John Anderson (Lab Director) and Dr. Meng Cheng &quot;Mc&quot; Lau (Post Doc Fellow). They showed me around the lab, the research they do and the competitions they have participated in.
             I got very excited to see the combination of hardware and software without knowing much about the hardware. I wrote my essays and got the award.
           </p>
 
           <p>
-            If I could describe my first month in this lab with one word, it was: Total Confusion (oops, that's two words). The lab just got a new robot as an award from a previous competition:
+            If I could describe my first month in this lab with two words, it was: Total Confusion. The lab just got a new robot as an award from a previous competition:
             <PostLink href="https://emanual.robotis.com/docs/en/platform/op3/introduction/" >Robotis OP3</PostLink>.
             So, I was assigned to the Kid-Size team (kid size because it is a small robot, a bit higher than your ankle) to figure out how it works and participate in the upcoming{" "}
             <PostLink href="https://firaworldcup.org/past-events/">FIRA Hurocup 2018</PostLink>.
@@ -69,7 +69,7 @@ export default function Fira2018() {
           </ul>
           <p>
             We were actually really impressed to get 4th place all-round due to our experience.
-            This taught me that it isn't about knowledge, it is about persistence, focus, belief, handling stress, collaboration and teamwork.
+            This taught me that it isn&apos;t about knowledge, it is about persistence, focus, belief, handling stress, collaboration and teamwork.
           </p>
           <p>After this amazing experience, I decided to stay as volunteer for the Aalab.</p>
         </div>
@@ -80,7 +80,7 @@ export default function Fira2018() {
         alt=""
         width={1500}
         height={38} />
-      <small className="italic">Chris Melendez (me, kid-size), Mario Mendez (adult-size), Dr. Jackie Baltes (organizer), Dr. Meng Cheng Lau (Post Doc Fellow), Louis O'Connor (kid-size), Borui Li (adult size)</small>
+      <small className="italic">Chris Melendez (me, kid-size), Mario Mendez (adult-size), Dr. Jackie Baltes (organizer), Dr. Meng Cheng Lau (Post Doc Fellow), Louis O&apos;Connor (kid-size), Borui Li (adult size)</small>
 
       <PostLink href="https://www.youtube.com/watch?v=mRNElPifuhc" >
         External highlights Video
