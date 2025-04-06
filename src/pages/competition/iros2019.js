@@ -1,3 +1,6 @@
+import PostLink from "@/app/components/PostLink";
+import Image from "next/image";
+
 export default function Iros2019() {
   return (
     <div className="flex flex-col gap-8 p-10">
@@ -6,7 +9,13 @@ export default function Iros2019() {
         <h2 className="text-xl font-semibold text-gray-500 dark:text-white lg:text-2xl">Robots and humans jamming together</h2>
       </div>
       <div className="grid md:grid-cols-2 gap-8">
-        <img className="relative z-10 object-cover w-full rounded-md" src="/iros1.jpg" alt="" />
+        <Image
+          className="relative z-10 object-cover w-full rounded-md"
+          src="/iros1.jpg"
+          alt=""
+          width={1000}
+          height={38}
+        />
         <div className="flex flex-col gap-4">
           <p>
             In 2019, we signed up to participate in the Humanoid Application Challenge from the international conference{" "}
@@ -47,9 +56,9 @@ export default function Iros2019() {
           <p>In the end, we got 2nd place among six teams! The prize was a hand sponsored by{" "}
             <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.seedrobotics.com/" target="_blank">Seed Robotics</a>.
             Here is a{" "}
-            <a href="">
+            <PostLink href="">
               video
-            </a>
+            </PostLink>
             of the show (I sometimes cringe at how nervous I was, but I still would do it all over again)</p>
 
           Here are some solo videos of each part of the performance:
@@ -77,7 +86,13 @@ export default function Iros2019() {
           </ul>
         </div>
       </div>
-      <img className="relative z-10 object-cover rounded-md h-96 object-[50%_35%]" src="/iros2.jpg" alt="" />
+      <Image
+        className="relative z-10 object-cover rounded-md w-full h-96 object-[50%_35%]"
+        src="/iros2.jpg"
+        alt=""
+        width={1500}
+        height={38}
+      />
       <small className="italic">Dr. Meng Cheng Lau (Post Doc Fellow), Chris Melendez (me)</small>
       <p>
         <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=mRNElPifuhc" target="_blank">
