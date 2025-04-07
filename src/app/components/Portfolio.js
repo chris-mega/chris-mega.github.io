@@ -63,7 +63,7 @@ export default function Portfolio() {
     const getPreviews = async () => {
       const prevs = {};
       for (const project of projects) {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/fetchPreview?url=${encodeURIComponent(project.link)}`);
+        const response = await fetch(`/api/fetchPreview?url=${encodeURIComponent(project.link)}`);
         const data = await response.json();
         data.tech = project.tech;
         if (project.category in prevs) {
