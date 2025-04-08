@@ -1,8 +1,12 @@
-"use server"
-
 import * as cheerio from "cheerio";
 
-export default async function handler(url) {
+export default async function handler(req, res) {
+  const { url } = req.query;
+
+  if (!url) {
+    return res.status(400).json({ error: "URL is required" });
+  }
+
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -19,10 +23,9 @@ export default async function handler(url) {
       url: $('meta[property="og:url"]').attr("content") || url,
     };
 
-    return preview
-
+    res.status(200).json(preview);
   } catch (error) {
     console.error("Error fetching preview:", error);
-    return null
+    res.status(500).json({ error: "Failed to fetch preview" });
   }
 }

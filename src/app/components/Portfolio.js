@@ -1,6 +1,5 @@
 "use client"
 
-import handler from "@/pages/api/fetchPreview";
 import Image from "next/image";
 import { useEffect, useState } from "react"
 
@@ -57,6 +56,14 @@ const hoverStyle = {
   unselected: "block text-gray-500 dark:text-gray-300 hover:underline"
 }
 
+async function fetchPreview(url) {
+  const response = await fetch(`/api/fetchPreview?url=${encodeURIComponent(url)}`);
+  if (!response.ok) {
+    throw new Error("Failed to fetch preview");
+  }
+  return response.json();
+}
+
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
   const [loading, setLoading] = useState(true);
@@ -66,7 +73,7 @@ export default function Portfolio() {
     const getPreviews = async () => {
       const prevs = {};
       for (const project of projects) {
-        const data = await handler(project.link);
+        const data = await fetchPreview(project.link);
         data.tech = project.tech;
         if (project.category in prevs) {
           prevs[project.category].push(data);
