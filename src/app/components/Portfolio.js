@@ -1,7 +1,8 @@
 "use client"
 
-import { useState } from "react"
-import useSWR from 'swr'
+import handler from "@/pages/api/fetchPreview";
+import Image from "next/image";
+import { useEffect, useState } from "react"
 
 const projects = [
   {
@@ -55,34 +56,29 @@ const hoverStyle = {
   selected: "block text-blue-500 dark:text-blue-400 hover:underline",
   unselected: "block text-gray-500 dark:text-gray-300 hover:underline"
 }
-const fetcher = (...args) => fetch(...args).then(res => res.json())
-
-function loadPreviews() {
-  const prevs = {};
-  var loading = true;
-  var err = null;
-  for (const project of projects) {
-    const { data, error, isLoading } = useSWR(`/api/fetchPreview?url=${encodeURIComponent(project.link)}`, fetcher)
-    loading = isLoading;
-    err = error;
-    if (data == null) continue;
-    data.tech = project.tech;
-    if (project.category in prevs) {
-      prevs[project.category].push(data);
-    } else {
-      prevs[project.category] = [data];
-    }
-  }
-  return {
-    previews: prevs,
-    loading: loading,
-    error: err
-  }
-}
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
-  const { previews, loading } = loadPreviews()
+  const [loading, setLoading] = useState(true);
+  const [previews, setPreviews] = useState({});
+
+  useEffect(() => {
+    const getPreviews = async () => {
+      const prevs = {};
+      for (const project of projects) {
+        const data = await handler(project.link);
+        data.tech = project.tech;
+        if (project.category in prevs) {
+          prevs[project.category].push(data);
+        } else {
+          prevs[project.category] = [data];
+        }
+      }
+      setPreviews(prevs);
+      setLoading(false);
+    }
+    getPreviews();
+  }, [])
 
   if (loading) {
     return <Skeleton />
@@ -108,7 +104,16 @@ export default function Portfolio() {
                 {
                   previews[selected] && previews[selected].map((preview, index) => (
                     <a key={index} className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group" href={preview.url} target="_blank">
-                      <img className="object-contain w-full h-full rounded-lg h-96" src={preview.image} alt="" />
+                      {preview.image ?
+                        <Image
+                          className="object-contain w-full h-full rounded-lg h-96"
+                          src={preview.image}
+                          alt={preview.title}
+                          width={180}
+                          height={38}
+                        />
+                        : <h2>{preview.title}</h2>
+                      }
                       <p className="mt-2 text-lg tracking-wider text-blue-500 dark:text-blue-400 ">{preview.tech}</p>
                     </a>
                   ))

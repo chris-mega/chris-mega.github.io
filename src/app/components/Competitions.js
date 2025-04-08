@@ -7,7 +7,7 @@ const competitions = [
     subtitle: 'Mentoring for Team 9292 - Zen Maker Lab (OrcaOverdrive)',
     description: 'Mentored Grade 7-12 students in FIRST Robotics Competition (FRC), focused on leading the software team ',
     date: 'February 26, 2025',
-    image: 'https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    image: '/frc-1.png',
     link: '/competition/frc2025',
   },
   {

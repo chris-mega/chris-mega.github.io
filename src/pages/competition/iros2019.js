@@ -19,7 +19,7 @@ export default function Iros2019() {
         <div className="flex flex-col gap-4">
           <p>
             In 2019, we signed up to participate in the Humanoid Application Challenge from the international conference{" "}
-            <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.iros2019.org/" target="_blank">IROS 2019</a>.
+            <PostLink href="https://www.iros2019.org/">IROS 2019</PostLink>.
             The competition this year was about magic and music.
             The sky was the limit regarding what could be achieved. Still, it had to be highly technical, fun and a wowing experience for judges and spectators.
             Team Snobots has always participated in doing magic and has done very well, even winning a robot in a previous year.
@@ -30,7 +30,7 @@ export default function Iros2019() {
             In a previous competition, we managed to have our two robots share the same code. We were excited to make them play together with us as a human and robot band.
             Mario, one of our lab members and a drummer, made the motions for our big robot to play drums and… oh my goodness, the result was the real magic for us.
             As soon as we saw it we knew we were ready, even if we didn’t know how to do the rest, but we were so energized and inspired. We posted our{" "}
-            <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=hE4ZpEnaQtY" target="_blank">Qualification video</a>{" "}
+            <PostLink href="https://www.youtube.com/watch?v=hE4ZpEnaQtY">Qualification video</PostLink>{" "}
             and people were impressed.
           </p>
 
@@ -43,9 +43,9 @@ export default function Iros2019() {
             In between, I learned more about OpenCV, visual servoing, inverse kinematics, UDP connections, human-robot interaction and music theory.
             Not forgetting also how to be a good showman and interact with the robot through some text-to-speech.
             For more information about my version of visual servoing you can take a look at my{" "}
-            <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://github.com/chris-mega/PianoPlayer" target="_blank">
+            <PostLink href="https://github.com/chris-mega/PianoPlayer">
               Github repo
-            </a>.
+            </PostLink>.
           </p>
 
           <p>The trip to Macau was very exciting and long. When we arrived, we had some hardware issues which got me nervous at the moment of performance.
@@ -54,7 +54,7 @@ export default function Iros2019() {
           </p>
 
           <p>In the end, we got 2nd place among six teams! The prize was a hand sponsored by{" "}
-            <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.seedrobotics.com/" target="_blank">Seed Robotics</a>.
+            <PostLink href="https://www.seedrobotics.com/">Seed Robotics</PostLink>.
             Here is a{" "}
             <PostLink href="">
               video
@@ -64,24 +64,24 @@ export default function Iros2019() {
           Here are some solo videos of each part of the performance:
           <ul className="list-disc pl-4">
             <li>
-              <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=Lp4dbFI_9yg" target="_blank">
+              <PostLink href="https://www.youtube.com/watch?v=Lp4dbFI_9yg">
                 Oscar - Sound check “Billie Jean”
-              </a>
+              </PostLink>
             </li>
             <li>
-              <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=ioqXlPz_vdU" target="_blank">
+              <PostLink href="https://www.youtube.com/watch?v=ioqXlPz_vdU">
                 Polaris - Sound check
-              </a>
+              </PostLink>
             </li>
             <li>
-              <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=982TSPjSlCA" target="_blank">
+              <PostLink href="https://www.youtube.com/watch?v=982TSPjSlCA">
                 Snobots Band - Knocking on Heaven’s Door
-              </a>
+              </PostLink>
             </li>
             <li>
-              <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=eJbvUqCcffI" target="_blank">
+              <PostLink href="https://www.youtube.com/watch?v=eJbvUqCcffI">
                 Snobots Band - Glorious Years
-              </a>
+              </PostLink>
             </li>
           </ul>
         </div>
@@ -95,9 +95,9 @@ export default function Iros2019() {
       />
       <small className="italic">Dr. Meng Cheng Lau (Post Doc Fellow), Chris Melendez (me)</small>
       <p>
-        <a class="inline-block text-blue-500 underline hover:text-blue-400" href="https://www.youtube.com/watch?v=mRNElPifuhc" target="_blank">
+        <PostLink href="https://www.youtube.com/watch?v=mRNElPifuhc">
           An interesting video highlight
-        </a>{" "}
+        </PostLink>{" "}
         where my profesor talked for a bit… and I got a cameo!</p>
     </div>
   )
