@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
+import useSWR from 'swr'
 
 const projects = [
   {
@@ -54,34 +55,38 @@ const hoverStyle = {
   selected: "block text-blue-500 dark:text-blue-400 hover:underline",
   unselected: "block text-gray-500 dark:text-gray-300 hover:underline"
 }
+const fetcher = (...args) => fetch(...args).then(res => res.json())
+
+function loadPreviews() {
+  const prevs = {};
+  var loading = true;
+  var err = null;
+  for (const project of projects) {
+    const { data, error, isLoading } = useSWR(`/api/fetchPreview?url=${encodeURIComponent(project.link)}`, fetcher)
+    loading = isLoading;
+    err = error;
+    if (data == null) continue;
+    data.tech = project.tech;
+    if (project.category in prevs) {
+      prevs[project.category].push(data);
+    } else {
+      prevs[project.category] = [data];
+    }
+  }
+  return {
+    previews: prevs,
+    loading: loading,
+    error: err
+  }
+}
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
-  const [loading, setLoading] = useState(true);
-  const [previews, setPreviews] = useState({});
-  useEffect(() => {
-    const getPreviews = async () => {
-      const prevs = {};
-      for (const project of projects) {
-        const response = await fetch(`/api/fetchPreview?url=${encodeURIComponent(project.link)}`);
-        const data = await response.json();
-        data.tech = project.tech;
-        if (project.category in prevs) {
-          prevs[project.category].push(data);
-        } else {
-          prevs[project.category] = [data];
-        }
-      }
-      setPreviews(prevs);
-      setLoading(false);
-    }
-    getPreviews();
-  }, [])
+  const { previews, loading } = loadPreviews()
 
   if (loading) {
     return <Skeleton />
   } else {
-
     return (
       <section id="portfolio" className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-12 mx-auto">
