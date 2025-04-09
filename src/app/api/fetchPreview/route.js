@@ -1,10 +1,12 @@
+import { NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
-export default async function handler(req, res) {
-  const { urls } = req.query;
+export async function GET(req) {
+  const { searchParams } = new URL(req.url);
+  const urls = searchParams.get("urls");
 
   if (!urls) {
-    return res.status(400).json({ error: "URL is required" });
+    return NextResponse.json({ error: "URL is required" }, { status: 400 });
   }
 
   const projects = JSON.parse(urls);
@@ -16,23 +18,27 @@ export default async function handler(req, res) {
       const html = await response.text();
       const $ = cheerio.load(html);
       const preview = {
-        title: $('meta[property="og:title"]').attr("content") || $("title").text(),
+        title:
+          $('meta[property="og:title"]').attr("content") || $("title").text(),
         description: $('meta[property="og:description"]').attr("content"),
         image: $('meta[property="og:image"]').attr("content"),
         url: $('meta[property="og:url"]').attr("content") || project.link,
         category: project.category,
         tech: project.tech,
       };
-      if(project.category in previews){
+      if (project.category in previews) {
         previews[project.category].push(preview);
-      }else{
+      } else {
         previews[project.category] = [preview];
       }
     }
 
-    res.status(200).json(previews);
+    return NextResponse.json(previews, { status: 200 });
   } catch (error) {
     console.error("Error fetching preview:", error);
-    res.status(500).json({ error: `Failed to fetch preview ${error.message}` });
+    return NextResponse.json(
+      { error: `Failed to fetch preview ${error.message}` },
+      { status: 500 }
+    );
   }
 }

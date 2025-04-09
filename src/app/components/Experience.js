@@ -2,10 +2,15 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <div id="experience" className="flex flex-col bg-white-50 w-full items-center gap-4 p-8">
+    <div
+      id="experience"
+      className="flex flex-col bg-white-50 w-full items-center gap-4 p-8"
+    >
       <div className="grid md:grid-cols-2 gap-4">
         <div className="flex flex-col gap-4 items-center">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Experience</h1>
+          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+            Experience
+          </h1>
           <ol className="relative border-s border-gray-200 dark:border-gray-700">
             <li className="mb-10 ms-6">
               <Image
@@ -106,7 +111,9 @@ export default function Experience() {
           </ol>
         </div>
         <div className="flex flex-col gap-4 items-center">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Education</h1>
+          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+            Education
+          </h1>
           <ol className="relative border-s border-gray-200 dark:border-gray-700">
             <li className="mb-10 ms-6">
               <Image
@@ -127,7 +134,6 @@ export default function Experience() {
           </ol>
         </div>
       </div>
-
     </div>
-  )
+  );
 }

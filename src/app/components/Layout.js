@@ -1,6 +1,6 @@
 import "../globals.css";
 
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -15,9 +15,11 @@ const geistMono = Geist_Mono({
 
 export default function Layout({ routing, children }) {
   return (
-    <div className={`${geistSans.variable} ${geistMono.variable} flex flex-col w-full h-screen items-center`}>
+    <div
+      className={`${geistSans.variable} ${geistMono.variable} flex flex-col w-full h-screen items-center`}
+    >
       <Navbar routing={routing} />
       <main>{children}</main>
     </div>
-  )
+  );
 }

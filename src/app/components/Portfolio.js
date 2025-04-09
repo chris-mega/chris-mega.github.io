@@ -1,96 +1,134 @@
-"use client"
+"use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 import useSwr from "swr";
-
 
 const projects = [
   {
     link: "https://github.com/chris-mega/objectDetector",
     category: "Robotics",
-    tech: "Python, OpenCV"
+    tech: "Python, OpenCV",
   },
   {
     link: "https://github.com/chris-mega/chris-mega.github.io",
     category: "Web",
-    tech: "React, NextJS, TailwindCSS"
+    tech: "React, NextJS, TailwindCSS",
   },
   {
     link: "https://www.elijahsraven.ca/",
     category: "Web",
-    tech: "React, ChakraUI"
+    tech: "React, ChakraUI",
   },
   {
     link: "https://github.com/chris-mega/BumpBites",
     category: "App",
-    tech: "React Native, Tamagui"
+    tech: "React Native, Tamagui",
   },
   {
     link: "https://github.com/chris-mega/BumpBitesAI",
     category: "App",
-    tech: "Python, Azure, Docker, OpenAI"
+    tech: "Python, Azure, Docker, OpenAI",
   },
   {
     link: "https://github.com/chris-mega/SpotiTool",
     category: "Web",
-    tech: "Angular, Typescript, Spotify API"
+    tech: "Angular, Typescript, Spotify API",
   },
   {
     link: "https://github.com/chris-mega/ObstacleSlam",
     category: "Robotics",
-    tech: "Python, OpenCV, ROS, Numpy"
+    tech: "Python, OpenCV, ROS, Numpy",
   },
   {
     link: "https://github.com/Jonathan204/SyncStream",
     category: "Web",
-    tech: "React, Bootstrap, Google Maps API, Spotify API"
+    tech: "React, Bootstrap, Google Maps API, Spotify API",
   },
   {
     link: "https://github.com/chris-mega/PianoPlayer",
     category: "Robotics",
-    tech: "Python, OpenCV, ROS, Numpy"
-  }
-]
+    tech: "Python, OpenCV, ROS, Numpy",
+  },
+];
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const hoverStyle = {
   selected: "block text-blue-500 dark:text-blue-400 hover:underline",
-  unselected: "block text-gray-500 dark:text-gray-300 hover:underline"
-}
+  unselected: "block text-gray-500 dark:text-gray-300 hover:underline",
+};
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
 
   const urlsString = `${encodeURIComponent(JSON.stringify(projects))}`;
-  const { data, error, isLoading } = useSwr(`/api/fetchPreview?urls=${urlsString}`, fetcher);
+  const { data, error, isLoading } = useSwr(
+    `/api/fetchPreview?urls=${urlsString}`,
+    fetcher
+  );
 
   if (isLoading || error) {
-    return <Skeleton />
+    return <Skeleton />;
   } else {
     return (
       <section id="portfolio" className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-12 mx-auto">
-          <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Portfolio</h1>
+          <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
+            Portfolio
+          </h1>
 
           <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
             <div className="lg:mx-12">
-              <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
+              <h1 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Table of Content
+              </h1>
 
               <div className="mt-4 space-y-4 lg:mt-8">
-                <button onClick={() => setSelected("Web")} className={selected == "Web" ? hoverStyle.selected : hoverStyle.unselected}>Web design</button>
-                <button onClick={() => setSelected("App")} className={selected == "App" ? hoverStyle.selected : hoverStyle.unselected}>App design</button>
-                <button onClick={() => setSelected("Robotics")} className={selected == "Robotics" ? hoverStyle.selected : hoverStyle.unselected}>Vision and Robotics</button>
+                <button
+                  onClick={() => setSelected("Web")}
+                  className={
+                    selected == "Web"
+                      ? hoverStyle.selected
+                      : hoverStyle.unselected
+                  }
+                >
+                  Web design
+                </button>
+                <button
+                  onClick={() => setSelected("App")}
+                  className={
+                    selected == "App"
+                      ? hoverStyle.selected
+                      : hoverStyle.unselected
+                  }
+                >
+                  App design
+                </button>
+                <button
+                  onClick={() => setSelected("Robotics")}
+                  className={
+                    selected == "Robotics"
+                      ? hoverStyle.selected
+                      : hoverStyle.unselected
+                  }
+                >
+                  Vision and Robotics
+                </button>
               </div>
             </div>
 
             <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
-                {
-                  data[selected] && data[selected].map((preview, index) => (
-                    <a key={index} className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group" href={preview.url} target="_blank">
-                      {preview.image ?
+                {data[selected] &&
+                  data[selected].map((preview, index) => (
+                    <a
+                      key={index}
+                      className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group"
+                      href={preview.url}
+                      target="_blank"
+                    >
+                      {preview.image ? (
                         <Image
                           className="object-contain w-full h-full rounded-lg h-96"
                           src={preview.image}
@@ -98,49 +136,52 @@ export default function Portfolio() {
                           width={180}
                           height={38}
                         />
-                        : <h2>{preview.title}</h2>
-                      }
-                      <p className="mt-2 text-lg tracking-wider text-blue-500 dark:text-blue-400 ">{preview.tech}</p>
+                      ) : (
+                        <h2>{preview.title}</h2>
+                      )}
+                      <p className="mt-2 text-lg tracking-wider text-blue-500 dark:text-blue-400 ">
+                        {preview.tech}
+                      </p>
                     </a>
-                  ))
-                }
+                  ))}
               </div>
             </div>
           </div>
         </div>
       </section>
-    )
+    );
   }
 }
 
 const Skeleton = () => {
-  return (<section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-10 mx-auto animate-pulse">
-      <h1 className="w-48 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-      <p className="w-64 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-      <p className="w-64 h-2 mx-auto mt-4 bg-gray-200 rounded-lg sm:w-80 dark:bg-gray-700"></p>
-      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="w-full ">
-          <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
-          <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-          <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-        </div>
+  return (
+    <section className="bg-white dark:bg-gray-900">
+      <div className="container px-6 py-10 mx-auto animate-pulse">
+        <h1 className="w-48 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+        <p className="w-64 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+        <p className="w-64 h-2 mx-auto mt-4 bg-gray-200 rounded-lg sm:w-80 dark:bg-gray-700"></p>
+        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="w-full ">
+            <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
+            <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+            <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+          </div>
 
-        <div className="w-full ">
-          <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
+          <div className="w-full ">
+            <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
 
-          <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-          <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-        </div>
+            <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+            <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+          </div>
 
-        <div className="w-full ">
-          <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
+          <div className="w-full ">
+            <div className="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
 
-          <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-          <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+            <h1 className="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+            <p className="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  )
-}
+    </section>
+  );
+};
