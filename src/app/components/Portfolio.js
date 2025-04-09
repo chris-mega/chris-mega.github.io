@@ -1,7 +1,9 @@
 "use client"
 
 import Image from "next/image";
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
+import useSwr from "swr";
+
 
 const projects = [
   {
@@ -51,43 +53,20 @@ const projects = [
   }
 ]
 
+const fetcher = (url) => fetch(url).then((res) => res.json());
+
 const hoverStyle = {
   selected: "block text-blue-500 dark:text-blue-400 hover:underline",
   unselected: "block text-gray-500 dark:text-gray-300 hover:underline"
 }
 
-async function fetchPreview(url) {
-  const response = await fetch(`/api/fetchPreview?url=${encodeURIComponent(url)}`);
-  if (!response.ok) {
-    throw new Error("Failed to fetch preview");
-  }
-  return response.json();
-}
-
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
-  const [loading, setLoading] = useState(true);
-  const [previews, setPreviews] = useState({});
 
-  useEffect(() => {
-    const getPreviews = async () => {
-      const prevs = {};
-      for (const project of projects) {
-        const data = await fetchPreview(project.link);
-        data.tech = project.tech;
-        if (project.category in prevs) {
-          prevs[project.category].push(data);
-        } else {
-          prevs[project.category] = [data];
-        }
-      }
-      setPreviews(prevs);
-      setLoading(false);
-    }
-    getPreviews();
-  }, [])
+  const urlsString = `${encodeURIComponent(JSON.stringify(projects))}`;
+  const { data, error, isLoading } = useSwr(`/api/fetchPreview?urls=${urlsString}`, fetcher);
 
-  if (loading) {
+  if (isLoading || error) {
     return <Skeleton />
   } else {
     return (
@@ -109,7 +88,7 @@ export default function Portfolio() {
             <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
                 {
-                  previews[selected] && previews[selected].map((preview, index) => (
+                  data[selected] && data[selected].map((preview, index) => (
                     <a key={index} className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group" href={preview.url} target="_blank">
                       {preview.image ?
                         <Image
