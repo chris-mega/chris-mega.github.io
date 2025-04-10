@@ -1,6 +1,54 @@
 import { NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
+const projects = [
+  {
+    link: "https://github.com/chris-mega/objectDetector",
+    category: "Robotics",
+    tech: "Python, OpenCV",
+  },
+  {
+    link: "https://github.com/chris-mega/chris-mega.github.io",
+    category: "Web",
+    tech: "React, NextJS, TailwindCSS",
+  },
+  {
+    link: "https://www.elijahsraven.ca/",
+    category: "Web",
+    tech: "React, ChakraUI",
+  },
+  {
+    link: "https://github.com/chris-mega/BumpBites",
+    category: "App",
+    tech: "React Native, Tamagui",
+  },
+  {
+    link: "https://github.com/chris-mega/BumpBitesAI",
+    category: "App",
+    tech: "Python, Azure, Docker, OpenAI",
+  },
+  {
+    link: "https://github.com/chris-mega/SpotiTool",
+    category: "Web",
+    tech: "Angular, Typescript, Spotify API",
+  },
+  {
+    link: "https://github.com/chris-mega/ObstacleSlam",
+    category: "Robotics",
+    tech: "Python, OpenCV, ROS, Numpy",
+  },
+  {
+    link: "https://github.com/Jonathan204/SyncStream",
+    category: "Web",
+    tech: "React, Bootstrap, Google Maps API, Spotify API",
+  },
+  {
+    link: "https://github.com/chris-mega/PianoPlayer",
+    category: "Robotics",
+    tech: "Python, OpenCV, ROS, Numpy",
+  },
+];
+
 export async function GET(req) {
   const headers = new Headers();
   headers.set("Access-Control-Allow-Origin", "*");

@@ -1,58 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
-import useSwr from "swr";
-
-const projects = [
-  {
-    link: "https://github.com/chris-mega/objectDetector",
-    category: "Robotics",
-    tech: "Python, OpenCV",
-  },
-  {
-    link: "https://github.com/chris-mega/chris-mega.github.io",
-    category: "Web",
-    tech: "React, NextJS, TailwindCSS",
-  },
-  {
-    link: "https://www.elijahsraven.ca/",
-    category: "Web",
-    tech: "React, ChakraUI",
-  },
-  {
-    link: "https://github.com/chris-mega/BumpBites",
-    category: "App",
-    tech: "React Native, Tamagui",
-  },
-  {
-    link: "https://github.com/chris-mega/BumpBitesAI",
-    category: "App",
-    tech: "Python, Azure, Docker, OpenAI",
-  },
-  {
-    link: "https://github.com/chris-mega/SpotiTool",
-    category: "Web",
-    tech: "Angular, Typescript, Spotify API",
-  },
-  {
-    link: "https://github.com/chris-mega/ObstacleSlam",
-    category: "Robotics",
-    tech: "Python, OpenCV, ROS, Numpy",
-  },
-  {
-    link: "https://github.com/Jonathan204/SyncStream",
-    category: "Web",
-    tech: "React, Bootstrap, Google Maps API, Spotify API",
-  },
-  {
-    link: "https://github.com/chris-mega/PianoPlayer",
-    category: "Robotics",
-    tech: "Python, OpenCV, ROS, Numpy",
-  },
-];
-
-const fetcher = (url) => fetch(url).then((res) => res.json());
+import React, { useState } from "react";
+import projects from "../../data/projects.json";
 
 const hoverStyle = {
   selected: "block text-blue-500 dark:text-blue-400 hover:underline",
@@ -62,15 +12,10 @@ const hoverStyle = {
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
 
-  const urlsString = encodeURIComponent(JSON.stringify(projects));
-  const { data, error, isLoading } = useSwr(
-    `/api/fetchPreview?urls=${urlsString}`,
-    fetcher
-  );
-
-  if (isLoading || error) {
+  if (!projects) {
     return <Skeleton />;
   } else {
+    const filteredPreviews = projects[selected];
     return (
       <section id="portfolio" className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-12 mx-auto">
@@ -120,30 +65,29 @@ export default function Portfolio() {
 
             <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
-                {data[selected] &&
-                  data[selected].map((preview, index) => (
-                    <a
-                      key={index}
-                      className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group"
-                      href={preview.url}
-                      target="_blank"
-                    >
-                      {preview.image ? (
-                        <Image
-                          className="object-contain w-full h-full rounded-lg h-96"
-                          src={preview.image}
-                          alt={preview.title}
-                          width={180}
-                          height={38}
-                        />
-                      ) : (
-                        <h2>{preview.title}</h2>
-                      )}
-                      <p className="mt-2 text-lg tracking-wider text-blue-500 dark:text-blue-400 ">
-                        {preview.tech}
-                      </p>
-                    </a>
-                  ))}
+                {filteredPreviews.map((preview, index) => (
+                  <a
+                    key={index}
+                    className="relative flex flex-col items-center justify-center w-full h-96 overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800 group"
+                    href={preview.url}
+                    target="_blank"
+                  >
+                    {preview.image ? (
+                      <Image
+                        className="object-contain w-full h-full rounded-lg h-96"
+                        src={preview.image}
+                        alt={preview.title}
+                        width={180}
+                        height={38}
+                      />
+                    ) : (
+                      <h2>{preview.title}</h2>
+                    )}
+                    <p className="mt-2 text-lg tracking-wider text-blue-500 dark:text-blue-400 ">
+                      {preview.tech}
+                    </p>
+                  </a>
+                ))}
               </div>
             </div>
           </div>

@@ -7,6 +7,7 @@ const nextConfig = {
       "images.unsplash.com",
       "opengraph.githubassets.com",
     ],
+    unoptimized: true,
   },
 };
 

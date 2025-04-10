@@ -1,0 +1,78 @@
+{
+  "Robotics": [
+    {
+      "title": "GitHub - chris-mega/objectDetector: Ball and arrow detectors with OpenCV in Python",
+      "description": "Ball and arrow detectors with OpenCV in Python. Contribute to chris-mega/objectDetector development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/ca1086dcb553657febf9507245295401d721011de120e0204fb139a3d9d499e7/chris-mega/objectDetector",
+      "url": "https://github.com/chris-mega/objectDetector",
+      "category": "Robotics",
+      "tech": "Python, OpenCV"
+    },
+    {
+      "title": "GitHub - chris-mega/ObstacleSlam",
+      "description": "Contribute to chris-mega/ObstacleSlam development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/68bf71843b2656e92e5ad3d8931dcb5d26752f4dd57f129d216aee9a418ce64b/chris-mega/ObstacleSlam",
+      "url": "https://github.com/chris-mega/ObstacleSlam",
+      "category": "Robotics",
+      "tech": "Python, OpenCV, ROS, Numpy"
+    },
+    {
+      "title": "GitHub - chris-mega/PianoPlayer: Piano player program for a Robotis-Op3 robot",
+      "description": "Piano player program for a Robotis-Op3 robot. Contribute to chris-mega/PianoPlayer development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/62b928483cea9fa96ec386178401141d0e502fac2ea3a566cd9d6749b3d65a20/chris-mega/PianoPlayer",
+      "url": "https://github.com/chris-mega/PianoPlayer",
+      "category": "Robotics",
+      "tech": "Python, OpenCV, ROS, Numpy"
+    }
+  ],
+  "Web": [
+    {
+      "title": "GitHub - chris-mega/chris-mega.github.io: My github page",
+      "description": "My github page. Contribute to chris-mega/chris-mega.github.io development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/3e81a52bb66a744fa2b5feaebb21ff8cbe544f0b6f9b54fe2517d191737ff8b8/chris-mega/chris-mega.github.io",
+      "url": "https://github.com/chris-mega/chris-mega.github.io",
+      "category": "Web",
+      "tech": "React, NextJS, TailwindCSS"
+    },
+    {
+      "title": "Raven",
+      "url": "https://www.elijahsraven.ca/",
+      "category": "Web",
+      "tech": "React, ChakraUI"
+    },
+    {
+      "title": "GitHub - chris-mega/SpotiTool: A webapp to organize liked Spotify songs into playlists",
+      "description": "A webapp to organize liked Spotify songs into playlists - chris-mega/SpotiTool",
+      "image": "https://opengraph.githubassets.com/4dfaf41e37a5cb3932a05f1f4ae02e43a0c87af991056b596a1c448690ae4f84/chris-mega/SpotiTool",
+      "url": "https://github.com/chris-mega/SpotiTool",
+      "category": "Web",
+      "tech": "Angular, Typescript, Spotify API"
+    },
+    {
+      "title": "GitHub - Jonathan204/SyncStream: Software Eng 2 project",
+      "description": "Software Eng 2 project. Contribute to Jonathan204/SyncStream development by creating an account on GitHub.",
+      "image": "https://opengraph.githubassets.com/e920ebf667ad72d0dc7ac342911e3a7f7cb03de06cd34efaae3fed2fb9d4378c/Jonathan204/SyncStream",
+      "url": "https://github.com/Jonathan204/SyncStream",
+      "category": "Web",
+      "tech": "React, Bootstrap, Google Maps API, Spotify API"
+    }
+  ],
+  "App": [
+    {
+      "title": "GitHub - chris-mega/BumpBites: A mobile app that suggests recipes during pregnancy",
+      "description": "A mobile app that suggests recipes during pregnancy - chris-mega/BumpBites",
+      "image": "https://opengraph.githubassets.com/9612c815161a7e798153b66f59d6be7f5da4b2010fd2f33f8d1da2fb0fc9f920/chris-mega/BumpBites",
+      "url": "https://github.com/chris-mega/BumpBites",
+      "category": "App",
+      "tech": "React Native, Tamagui"
+    },
+    {
+      "title": "GitHub - chris-mega/BumpBitesAI: Backend for recipe recommendations system during pregnancy",
+      "description": "Backend for recipe recommendations system during pregnancy - chris-mega/BumpBitesAI",
+      "image": "https://opengraph.githubassets.com/4d4f9a2d9da736395985dda994b4d8f2a8eb749d612871d1563f89aa003c7eb4/chris-mega/BumpBitesAI",
+      "url": "https://github.com/chris-mega/BumpBitesAI",
+      "category": "App",
+      "tech": "Python, Azure, Docker, OpenAI"
+    }
+  ]
+}
