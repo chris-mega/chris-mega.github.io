@@ -2,6 +2,15 @@ import { NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
 export async function GET(req) {
+  const headers = new Headers();
+  headers.set("Access-Control-Allow-Origin", "*");
+  headers.set("Access-Control-Allow-Methods", "GET, OPTIONS");
+  headers.set("Access-Control-Allow-Headers", "Content-Type");
+
+  if (req.method === "OPTIONS") {
+    return new Response(null, { headers });
+  }
+
   const { searchParams } = new URL(req.url);
   const urls = searchParams.get("urls");
 
@@ -33,7 +42,7 @@ export async function GET(req) {
       }
     }
 
-    return NextResponse.json(previews, { status: 200 });
+    return NextResponse.json(previews, { status: 200, headers });
   } catch (error) {
     console.error("Error fetching preview:", error);
     return NextResponse.json(
