@@ -62,7 +62,7 @@ const hoverStyle = {
 export default function Portfolio() {
   const [selected, setSelected] = useState("Web");
 
-  const urlsString = `${encodeURIComponent(JSON.stringify(projects))}`;
+  const urlsString = encodeURIComponent(JSON.stringify(projects));
   const { data, error, isLoading } = useSwr(
     `/api/fetchPreview?urls=${urlsString}`,
     fetcher

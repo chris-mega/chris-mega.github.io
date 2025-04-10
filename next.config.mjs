@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  exportTrailingSlash: true,
-  async exportPathMap(defaultPathMap) {
-    return {
-      ...defaultPathMap,
-      '/api/fetchPreview': { page: '/api/fetchPreview' },
-    };
+  trailingSlash: true,
+  generateStaticParams: async () => {
+    return [{ "/api/fetchPreview": { page: "/api/fetchPreview" } }];
   },
   images: {
     domains: [
