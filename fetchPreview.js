@@ -1,7 +1,3 @@
-export const dynamic = "force-static";
-export const revalidate = 60;
-
-import { NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
 const projects = [
@@ -52,25 +48,7 @@ const projects = [
   },
 ];
 
-export async function GET(req) {
-  const headers = new Headers();
-  headers.set("Access-Control-Allow-Origin", "*");
-  headers.set("Access-Control-Allow-Methods", "GET, OPTIONS");
-  headers.set("Access-Control-Allow-Headers", "Content-Type");
-
-  if (req.method === "OPTIONS") {
-    return new Response(null, { headers });
-  }
-
-  const { searchParams } = new URL(req.url);
-  const urls = searchParams.get("urls");
-
-  if (!urls) {
-    return NextResponse.json({ error: "URL is required" }, { status: 400 });
-  }
-
-  const projects = JSON.parse(urls);
-
+export async function handler() {
   try {
     const previews = {};
     for (var project of projects) {
@@ -93,12 +71,11 @@ export async function GET(req) {
       }
     }
 
-    return NextResponse.json(previews, { status: 200, headers });
+    return previews;
   } catch (error) {
     console.error("Error fetching preview:", error);
-    return NextResponse.json(
-      { error: `Failed to fetch preview ${error.message}` },
-      { status: 500 }
-    );
+    return {};
   }
 }
+
+handler();
