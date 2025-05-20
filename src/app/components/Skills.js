@@ -4,7 +4,7 @@ export default function Skills() {
       id="skills"
       className="flex flex-col bg-blue-50 w-full items-center gap-4 p-8"
     >
-      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+      <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl">
         Skills
       </h1>
       <div className="grid md:grid-cols-2 gap-4">

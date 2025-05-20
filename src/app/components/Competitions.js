@@ -46,7 +46,7 @@ export default function Competitions() {
       id="competitions"
       className="flex flex-col bg-red-50 w-full items-center gap-4 p-8"
     >
-      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+      <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl">
         Competitions
       </h1>
       <section className="container px-6 py-10 mx-auto">
