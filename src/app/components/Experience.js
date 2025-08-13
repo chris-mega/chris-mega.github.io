@@ -15,6 +15,22 @@ export default function Experience() {
             <li className="mb-10 ms-6">
               <Image
                 className="absolute w-8 h-8 rounded-full -start-3"
+                src="/evotrux.jpeg"
+                alt="Evotrux"
+                width={50}
+                height={50}
+              />
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                Software Developer
+              </h3>
+              <h4>Evotrux</h4>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                July 2025 - Present
+              </time>
+            </li>
+            <li className="mb-10 ms-6">
+              <Image
+                className="absolute w-8 h-8 rounded-full -start-3"
                 src="/zenmake.png"
                 alt="Zen Maker Lab"
                 width={50}
@@ -25,7 +41,7 @@ export default function Experience() {
               </h3>
               <h4>Zen Maker Lab</h4>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                December 2024 - Present
+                December 2024 - August 2025
               </time>
             </li>
             <li className="mb-10 ms-6">

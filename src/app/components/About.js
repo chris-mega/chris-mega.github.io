@@ -8,7 +8,7 @@ export default function About() {
           <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
             <Image
               className="object-cover w-40 h-40 rounded-full"
-              src="https://media.licdn.com/dms/image/v2/D5603AQEsWHropnthKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727508823777?e=1748476800&v=beta&t=ms0Wng24uYaA6wjyBHnQhLPnKhzLHkKLBksr06tqPQ8"
+              src="https://media.licdn.com/dms/image/v2/D5603AQEsWHropnthKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727508823777?e=1758153600&v=beta&t=wbv2DlzHbKhoUjTMY_dBvZZKAp9EK0iC00O-a9Fyy14"
               alt="Chris Melendez"
               width={180}
               height={38}
