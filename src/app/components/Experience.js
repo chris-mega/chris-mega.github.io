@@ -2,11 +2,9 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <div
-      id="experience"
-      className="flex flex-col bg-white-50 w-full items-center gap-4 p-8"
-    >
-      <div className="grid md:grid-cols-2 gap-4">
+    <section id="experience" className="w-full bg-background py-16 sm:py-20">
+      <div className="wrap flex flex-col items-center gap-8">
+      <div className="grid w-full max-w-5xl gap-12 md:grid-cols-2 md:gap-16">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
             Experience
@@ -150,6 +148,7 @@ export default function Experience() {
           </ol>
         </div>
       </div>
-    </div>
+      </div>
+    </section>
   );
 }

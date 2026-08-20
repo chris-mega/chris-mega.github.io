@@ -3,11 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Section tints, so light/dark bands stay in one place */
+  --band-a: #eff6ff; /* blue-50  */
+  --band-b: #fef2f2; /* red-50   */
+  --surface: #ffffff;
+  --border: #e5e7eb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-band-a: var(--band-a);
+  --color-band-b: var(--band-b);
+  --color-surface: var(--surface);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,6 +24,25 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --band-a: #0d1526;
+    --band-b: #1a1013;
+    --surface: #111827;
+    --border: #1f2937;
+  }
+}
+
+/* Shared page gutter. Replaces Tailwind's `container`, whose max-width
+   stops at 1536px and left big monitors with huge empty margins. */
+@utility wrap {
+  width: 100%;
+  max-width: 100rem; /* 1600px */
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .wrap {
+    padding-inline: 3rem;
   }
 }
 
@@ -23,4 +50,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* keep #anchors from hiding under the fixed navbar */
+  scroll-padding-top: 5rem;
 }

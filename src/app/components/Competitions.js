@@ -42,25 +42,23 @@ const competitions = [
 
 export default function Competitions() {
   return (
-    <div
-      id="competitions"
-      className="flex flex-col bg-red-50 w-full items-center gap-4 p-8"
-    >
-      <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl">
+    <section id="competitions" className="w-full bg-band-b py-16 sm:py-20">
+      <div className="wrap flex flex-col items-center gap-8">
+      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
         Competitions
       </h1>
-      <section className="container px-6 py-10 mx-auto">
-        <div className="grid grid-cols-1 gap-8 mg:grid-cols-2 xl:grid-cols-3">
+      <div className="w-full">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
           {competitions.map((competition, index) => (
-            <div key={index}>
+            <div key={index} className="flex flex-col">
               <Image
-                className="relative z-10 object-cover w-full rounded-md h-96"
+                className="relative z-10 object-cover w-full rounded-md h-72"
                 src={competition.image}
                 alt={competition.title}
                 width={180}
                 height={38}
               />
-              <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+              <div className="relative z-20 mx-4 flex flex-1 flex-col p-6 -mt-16 bg-surface rounded-lg shadow-md border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
                 <Link
                   href={competition.link}
                   className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl"
@@ -75,12 +73,13 @@ export default function Competitions() {
                   {competition.description}
                 </p>
 
-                <p className="mt-3 text-sm text-blue-500">{competition.date}</p>
+                <p className="mt-auto pt-3 text-sm text-blue-500">{competition.date}</p>
               </div>
             </div>
           ))}
         </div>
-      </section>
-    </div>
+      </div>
+      </div>
+    </section>
   );
 }

@@ -16,10 +16,12 @@ const geistMono = Geist_Mono({
 export default function Layout({ routing, children }) {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} flex flex-col w-full h-screen items-center`}
+      className={`${geistSans.variable} ${geistMono.variable} flex flex-col w-full min-h-screen`}
     >
       <Navbar routing={routing} />
-      <main>{children}</main>
+      {/* w-full + flex-1: without this, `main` shrink-wrapped its content and
+          every full-bleed section stopped short of the viewport edges. */}
+      <main className="w-full flex-1 pt-16">{children}</main>
     </div>
   );
 }

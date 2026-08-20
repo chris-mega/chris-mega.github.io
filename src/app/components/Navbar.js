@@ -14,8 +14,8 @@ const links = [
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed top-0 w-full z-[200] bg-white shadow dark:bg-gray-800">
-      <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
+    <nav className="fixed top-0 w-full z-[200] bg-white/90 backdrop-blur shadow-sm dark:bg-gray-900/90">
+      <div className="wrap py-4 md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <Link className="font-bold" href="/">
             ChrisM

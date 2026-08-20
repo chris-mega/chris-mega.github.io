@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# chris-mega.dev — personal site
 
-## Getting Started
+Next.js (App Router) + Tailwind CSS v4, deployed on **Vercel**.
 
-First, run the development server:
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run build      # production build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Portfolio content
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Projects are hand-authored in [`src/data/projects.js`](src/data/projects.js). Each entry
+supports:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| field      | meaning                                                      |
+| ---------- | ------------------------------------------------------------ |
+| `category` | one of the values in `CATEGORIES` — drives the filter pills   |
+| `shot`     | path under `/public/shots`; omit to render a monogram tile    |
+| `domain`   | shown in the fake browser bar above a screenshot              |
+| `live`     | public URL — renders the "Visit site" link                    |
+| `repo`     | source URL — renders the "Source" link                        |
+| `accent`   | Tailwind gradient classes used by the monogram tile           |
 
-## Learn More
+### Refreshing screenshots
 
-To learn more about Next.js, take a look at the following resources:
+Screenshots are captured locally with the Chrome you already have installed and
+committed to `public/shots` — no screenshot API, nothing running at build time:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run shots              # all sites
+npm run shots -- raven     # only entries whose name matches "raven"
+CHROME_PATH=/path/to/chrome npm run shots   # if auto-detection fails
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Site list lives in [`scripts/capture-shots.mjs`](scripts/capture-shots.mjs).
 
-## Deploy on Vercel
+### Profile photo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`src/app/components/Avatar.js` loads `public/profile.jpg` and falls back to a
+monogram if the file is missing. Drop a square photo there to use it.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+This repo used to be built by GitHub Actions into a static export for GitHub
+Pages. That workflow is gone, along with the `trailingSlash` and
+`images.unoptimized` constraints it required. Vercel builds it directly, so
+server rendering, image optimization, route handlers and ISR are all available.
+
+Environment variable (optional): `NEXT_PUBLIC_SITE_URL` — canonical origin used
+for metadata / Open Graph URLs.

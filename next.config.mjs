@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
+  // Previously: trailingSlash + images.unoptimized, both required by the
+  // GitHub Pages static export. On Vercel we get real routing and the
+  // built-in image optimizer, so neither is needed.
   images: {
-    domains: [
-      "media.licdn.com",
-      "images.unsplash.com",
-      "opengraph.githubassets.com",
+    remotePatterns: [
+      { protocol: "https", hostname: "images.unsplash.com" },
     ],
-    unoptimized: true,
   },
 };
 

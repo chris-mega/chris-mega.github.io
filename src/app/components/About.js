@@ -1,19 +1,12 @@
-import Image from "next/image";
+import Avatar from "./Avatar";
 
 export default function About() {
   return (
-    <div id="home" className="container px-6 py-16">
-      <div className="items-center lg:flex">
+    <div id="home" className="wrap py-16 sm:py-24">
+      <div className="items-center gap-12 lg:flex">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            <Image
-              className="object-cover w-40 h-40 rounded-full"
-              src="https://media.licdn.com/dms/image/v2/D5603AQEsWHropnthKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727508823777?e=1758153600&v=beta&t=wbv2DlzHbKhoUjTMY_dBvZZKAp9EK0iC00O-a9Fyy14"
-              alt="Chris Melendez"
-              width={180}
-              height={38}
-              priority
-            />
+          <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0">
+            <Avatar />
             <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
               Chris Melendez
             </h1>
@@ -106,7 +99,7 @@ export default function About() {
           <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
             Biography
           </h1>
-          <p className="mt-3 text-gray-600 dark:text-gray-400">
+          <p className="mt-3 max-w-prose text-center text-lg leading-relaxed text-gray-600 dark:text-gray-400 lg:text-start">
             Hola! I&apos;m a full stack developer with experience in leveraging
             technology to solve real-world challenges. I specialize in building
             robust, scalable web applications and crafting intuitive user

@@ -1,18 +1,16 @@
 export default function Skills() {
   return (
-    <div
-      id="skills"
-      className="flex flex-col bg-blue-50 w-full items-center gap-4 p-8"
-    >
-      <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl">
+    <section id="skills" className="w-full bg-band-a py-16 sm:py-20">
+      <div className="wrap flex flex-col items-center gap-8">
+      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
         Skills
       </h1>
-      <div className="grid md:grid-cols-2 gap-4">
-        <div className="w-full max-w-md px-8 py-4 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+      <div className="grid w-full gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
           <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
             Frontend
           </h2>
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">
             <div className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -158,11 +156,11 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="w-full max-w-md px-8 py-4 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
           <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
             Backend
           </h2>
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">
             <div className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -460,11 +458,11 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="w-full max-w-md px-8 py-4 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
           <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
             Cloud and Infrastructure
           </h2>
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">
             <div className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -601,6 +599,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </section>
   );
 }
