@@ -44,7 +44,7 @@ export default function Competitions() {
   return (
     <section id="competitions" className="w-full bg-band-b py-16 sm:py-20">
       <div className="wrap flex flex-col items-center gap-8">
-      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+      <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
         Competitions
       </h1>
       <div className="w-full">
@@ -58,22 +58,22 @@ export default function Competitions() {
                 width={180}
                 height={38}
               />
-              <div className="relative z-20 mx-4 flex flex-1 flex-col p-6 -mt-16 bg-surface rounded-lg shadow-md border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
+              <div className="relative z-20 mx-4 flex flex-1 flex-col p-6 -mt-16 bg-surface rounded-lg border border-line shadow-lg">
                 <Link
                   href={competition.link}
-                  className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl"
+                  className="font-semibold text-foreground hover:text-accent md:text-xl"
                 >
                   {competition.title}
                 </Link>
-                <p className="font-semibold text-gray-500 dark:text-white sm:text-sm md:text-md">
+                <p className="font-semibold text-fg-muted sm:text-sm md:text-md">
                   {competition.subtitle}
                 </p>
 
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                <p className="mt-3 text-sm text-fg-muted md:text-sm">
                   {competition.description}
                 </p>
 
-                <p className="mt-auto pt-3 text-sm text-blue-500">{competition.date}</p>
+                <p className="mt-auto pt-3 text-sm font-medium text-accent">{competition.date}</p>
               </div>
             </div>
           ))}

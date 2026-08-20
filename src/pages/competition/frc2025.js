@@ -5,10 +5,10 @@ export default function Frc2025() {
   return (
     <div className="flex flex-col gap-8 p-10">
       <div className="flex flex-col gap-4">
-        <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+        <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
           FRC 2025 - British Columbia
         </h1>
-        <h2 className="text-xl font-semibold text-gray-500 dark:text-white lg:text-2xl">
+        <h2 className="text-xl font-semibold text-fg-muted lg:text-2xl">
           Mentoring for Team 9292 - Zen Maker Lab (OrcaOverdrive)
         </h2>
       </div>

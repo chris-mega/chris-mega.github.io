@@ -1,34 +1,84 @@
 @import "tailwindcss";
 
+/* ---------------------------------------------------------------------------
+   Palette
+   ---------------------------------------------------------------------------
+   Semantic tokens, defined once per theme, so components never hardcode
+   `dark:bg-gray-800`-style pairs. Dark mode is a single cool slate family with
+   deliberate steps between page / band / surface / elevated, plus a visible
+   border colour — without those steps every section collapsed into the same
+   near-black.
+
+   Section bands alternate: background -> band-a -> background -> band-b -> band-c
+--------------------------------------------------------------------------- */
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-  /* Section tints, so light/dark bands stay in one place */
-  --band-a: #eff6ff; /* blue-50  */
-  --band-b: #fef2f2; /* red-50   */
-  --surface: #ffffff;
-  --border: #e5e7eb;
+  --foreground: #111827;
+  --fg-muted: #4b5563;
+  --fg-subtle: #6b7280;
+
+  --band-a: #eff6ff; /* blue tint   */
+  --band-b: #f5f3ff; /* violet tint */
+  --band-c: #f9fafb; /* neutral lift */
+
+  --surface: #ffffff; /* cards        */
+  --elevated: #f3f4f6; /* chips, bars  */
+  --line: #e5e7eb; /* borders      */
+
+  --accent: #2563eb;
+  --accent-soft: #eff6ff;
+  --on-accent-soft: #1d4ed8;
+
+  --glow: rgba(37, 99, 235, 0.06);
+  --tile-scrim: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #080b12;
+    --foreground: #e9eef7;
+    --fg-muted: #a3b0c4;
+    --fg-subtle: #7f8da3;
+
+    --band-a: #0e1626; /* blue-lifted   */
+    --band-b: #120f27; /* violet-lifted */
+    --band-c: #0b1220; /* neutral lift  */
+
+    --surface: #151d2e;
+    --elevated: #1c2740;
+    --line: #273449;
+
+    --accent: #60a5fa;
+    --accent-soft: #16243f;
+    --on-accent-soft: #93c5fd;
+
+    --glow: rgba(96, 165, 250, 0.14);
+    /* keeps the gradient tiles from glowing against the muted dark surfaces */
+    --tile-scrim: rgba(8, 11, 18, 0.4);
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+
   --color-band-a: var(--band-a);
   --color-band-b: var(--band-b);
+  --color-band-c: var(--band-c);
+
   --color-surface: var(--surface);
+  --color-elevated: var(--elevated);
+  --color-line: var(--line);
+
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent-soft: var(--on-accent-soft);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --band-a: #0d1526;
-    --band-b: #1a1013;
-    --surface: #111827;
-    --border: #1f2937;
-  }
 }
 
 /* Shared page gutter. Replaces Tailwind's `container`, whose max-width
@@ -44,6 +94,26 @@
   .wrap {
     padding-inline: 3rem;
   }
+}
+
+/* Soft accent wash behind the hero, so the top of the page isn't a flat
+   rectangle of background colour. Barely there in light, does real work in dark. */
+@utility hero-glow {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    70% 80% at 25% 15%,
+    var(--glow) 0%,
+    transparent 70%
+  );
 }
 
 body {

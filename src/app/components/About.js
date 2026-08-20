@@ -2,20 +2,21 @@ import Avatar from "./Avatar";
 
 export default function About() {
   return (
-    <div id="home" className="wrap py-16 sm:py-24">
+    <section id="home" className="hero-glow w-full bg-background">
+      <div className="wrap py-16 sm:py-24">
       <div className="items-center gap-12 lg:flex">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0">
             <Avatar />
-            <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+            <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
               Chris Melendez
             </h1>
-            <p className="mt-3 text-gray-600 dark:text-gray-400">
+            <p className="mt-3 text-fg-muted">
               Software Engineer
             </p>
             <div className="flex mt-4 -mx-1.5 ">
               <a
-                className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                className="mx-1.5 text-fg-subtle transition-colors duration-300 hover:text-accent"
                 href="https://github.com/chris-mega"
                 target="_blank"
               >
@@ -33,7 +34,7 @@ export default function About() {
               </a>
 
               <a
-                className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                className="mx-1.5 text-fg-subtle transition-colors duration-300 hover:text-accent"
                 href="https://www.linkedin.com/in/chrismelendezg"
                 target="_blank"
               >
@@ -51,7 +52,7 @@ export default function About() {
               </a>
 
               <a
-                className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                className="mx-1.5 text-fg-subtle transition-colors duration-300 hover:text-accent"
                 href="mailto:chris.melendezg@gmail.com"
                 target="_blank"
               >
@@ -69,7 +70,7 @@ export default function About() {
               </a>
 
               <a
-                className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                className="mx-1.5 text-fg-subtle transition-colors duration-300 hover:text-accent"
                 href="/ChrisMelendez-2024.pdf"
                 target="_blank"
               >
@@ -96,10 +97,10 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+          <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
             Biography
           </h1>
-          <p className="mt-3 max-w-prose text-center text-lg leading-relaxed text-gray-600 dark:text-gray-400 lg:text-start">
+          <p className="mt-3 max-w-prose text-center text-lg leading-relaxed text-fg-muted lg:text-start">
             Hola! I&apos;m a full stack developer with experience in leveraging
             technology to solve real-world challenges. I specialize in building
             robust, scalable web applications and crafting intuitive user
@@ -107,6 +108,7 @@ export default function About() {
           </p>
         </div>
       </div>
-    </div>
+      </div>
+    </section>
   );
 }

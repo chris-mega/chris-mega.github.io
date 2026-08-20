@@ -2,12 +2,12 @@ export default function Skills() {
   return (
     <section id="skills" className="w-full bg-band-a py-16 sm:py-20">
       <div className="wrap flex flex-col items-center gap-8">
-      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+      <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
         Skills
       </h1>
       <div className="grid w-full gap-6 md:grid-cols-2 xl:grid-cols-3">
-        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
-          <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl border border-line shadow-sm">
+          <h2 className="mt-2 text-xl font-semibold text-foreground md:mt-0">
             Frontend
           </h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">
@@ -156,8 +156,8 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
-          <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl border border-line shadow-sm">
+          <h2 className="mt-2 text-xl font-semibold text-foreground md:mt-0">
             Backend
           </h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">
@@ -458,8 +458,8 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl shadow-sm border border-gray-200/70 dark:border-gray-800 dark:bg-gray-900">
-          <h2 className="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">
+        <div className="w-full h-full px-8 py-6 bg-surface rounded-xl border border-line shadow-sm">
+          <h2 className="mt-2 text-xl font-semibold text-foreground md:mt-0">
             Cloud and Infrastructure
           </h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mt-4">

@@ -6,10 +6,10 @@ export default function Experience() {
       <div className="wrap flex flex-col items-center gap-8">
       <div className="grid w-full max-w-5xl gap-12 md:grid-cols-2 md:gap-16">
         <div className="flex flex-col gap-4 items-center">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+          <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
             Experience
           </h1>
-          <ol className="relative border-s border-gray-200 dark:border-gray-700">
+          <ol className="relative border-s border-line">
             <li className="mb-10 ms-6">
               <Image
                 className="absolute w-8 h-8 rounded-full -start-3"
@@ -18,11 +18,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Software Developer
               </h3>
               <h4>Evotrux</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 July 2025 - Present
               </time>
             </li>
@@ -34,11 +34,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 STEM Instructor
               </h3>
               <h4>Zen Maker Lab</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 December 2024 - August 2025
               </time>
             </li>
@@ -50,11 +50,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Co-Founder
               </h3>
               <h4>Raven Support Network</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 June 2023 - Present
               </time>
             </li>
@@ -66,11 +66,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Software Engineer
               </h3>
               <h4>Varian Medical Systems</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 May 2021 - June 2023
               </time>
             </li>
@@ -82,11 +82,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Teaching Assistant
               </h3>
               <h4>International College of Manitoba</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 September 2020 - December 2020
               </time>
             </li>
@@ -98,11 +98,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Innovation Lab Application Developer 1
               </h3>
               <h4>Wawanesa Insurance</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 January 2020 - August 2020
               </time>
             </li>
@@ -114,21 +114,21 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 Robot Programmer
               </h3>
               <h4>Autonomous Agents Lab</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 May 2018 - March 2020
               </time>
             </li>
           </ol>
         </div>
         <div className="flex flex-col gap-4 items-center">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+          <h1 className="text-3xl font-semibold text-foreground lg:text-4xl">
             Education
           </h1>
-          <ol className="relative border-s border-gray-200 dark:border-gray-700">
+          <ol className="relative border-s border-line">
             <li className="mb-10 ms-6">
               <Image
                 className="absolute w-8 h-8 rounded-full -start-3"
@@ -137,11 +137,11 @@ export default function Experience() {
                 width={50}
                 height={50}
               />
-              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-foreground">
                 BSc. Computer Science
               </h3>
               <h4>University of Manitoba</h4>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
                 September 2016 - May 2021
               </time>
             </li>
