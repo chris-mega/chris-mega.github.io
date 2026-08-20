@@ -1,39 +1,28 @@
-"use client";
-
 import Image from "next/image";
-import { useState } from "react";
 
 /**
- * Profile photo with a graceful fallback.
+ * Profile photo.
  *
  * The old avatar hotlinked a signed LinkedIn CDN URL, which expired and now
- * returns 403. Drop a photo at `public/profile.jpg` and it is used
- * automatically; until then this renders a monogram instead of a broken image.
+ * returns 403. This serves the copy committed at `public/me.jpg` instead, so
+ * it can be optimized and can never expire out from under us.
+ *
+ * me.jpg is a full-body shot, so the face would be tiny in a 160px circle.
+ * The scale + transform-origin below zoom in on the head without touching the
+ * source file: the origin is picked so the face lands slightly above the
+ * circle's centre. Adjust `--avatar-zoom` / the origin if you swap the photo.
  */
-export default function Avatar({ src = "/profile.jpg", initials = "CM" }) {
-  const [failed, setFailed] = useState(false);
-
-  if (failed) {
-    return (
-      <div
-        className="flex h-40 w-40 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-indigo-700 text-5xl font-semibold text-white shadow-lg"
-        aria-label="Chris Melendez"
-        role="img"
-      >
-        {initials}
-      </div>
-    );
-  }
-
+export default function Avatar() {
   return (
-    <Image
-      className="h-40 w-40 rounded-full object-cover shadow-lg"
-      src={src}
-      alt="Chris Melendez"
-      width={160}
-      height={160}
-      priority
-      onError={() => setFailed(true)}
-    />
+    <div className="relative h-40 w-40 overflow-hidden rounded-full shadow-lg ring-1 ring-black/5 dark:ring-white/10">
+      <Image
+        src="/me.jpg"
+        alt="Chris Melendez"
+        fill
+        sizes="160px"
+        priority
+        className="object-cover"
+      />
+    </div>
   );
 }

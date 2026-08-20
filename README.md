@@ -40,8 +40,8 @@ Site list lives in [`scripts/capture-shots.mjs`](scripts/capture-shots.mjs).
 
 ### Profile photo
 
-`src/app/components/Avatar.js` loads `public/profile.jpg` and falls back to a
-monogram if the file is missing. Drop a square photo there to use it.
+`src/app/components/Avatar.js` serves `public/me.jpg`. Replace that file (square
+crop works best) to change the photo.
 
 ## Deployment
 
