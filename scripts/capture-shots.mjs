@@ -16,6 +16,7 @@ const SITES = [
   // back to https once it's renewed.
   { name: "threebranchsupply", url: "http://threebranchsupply.com/" },
   { name: "elijahsraven", url: "https://www.elijahsraven.ca/" },
+  { name: "victorianwabuisi", url: "https://www.victorianwabuisi.ca/" },
 ];
 
 const CANDIDATES = [

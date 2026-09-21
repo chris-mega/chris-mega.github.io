@@ -3,6 +3,16 @@ import Link from "next/link";
 
 const competitions = [
   {
+    title: "FRC 2026 - British Columbia",
+    subtitle: "Mentoring for Team 11149 - Blue Lightning",
+    description:
+      "Mentored a rookie community team of middle and high school students in West Vancouver through their first FIRST Robotics Competition season, ranking 25th of 44 at the Canadian Pacific Regional",
+    // TODO(chris): 2026 team photo — /frc-1.png is the 2025 team.
+    date: "March 4, 2026",
+    image: "/frc-1.png",
+    link: "/competition/frc2026",
+  },
+  {
     title: "FRC 2025 - British Columbia",
     subtitle: "Mentoring for Team 9292 - Zen Maker Lab (OrcaOverdrive)",
     description:

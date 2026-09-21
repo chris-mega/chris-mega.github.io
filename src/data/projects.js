@@ -23,6 +23,21 @@ export const projects = [
     featured: true,
   },
   {
+    slug: "victoria-nwabuisi",
+    title: "Victoria Nwabuisi for Council",
+    domain: "victorianwabuisi.ca",
+    category: "Web",
+    year: "2026",
+    role: "Design, build & SEO",
+    blurb:
+      "Campaign site for a District of North Vancouver council candidate: platform, biography, events calendar, voting guide and donation flow, built on a hosted site platform ahead of the October 2026 municipal election.",
+    tech: ["Web build", "Squarespace", "SEO"],
+    live: "https://www.victorianwabuisi.ca/",
+    shot: "/shots/victorianwabuisi.png",
+    accent: "from-green-600 to-emerald-900",
+    featured: true,
+  },
+  {
     slug: "three-branch-supply",
     title: "Three Branch Supply",
     domain: "threebranchsupply.com",
