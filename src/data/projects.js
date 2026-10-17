@@ -7,6 +7,21 @@
 export const CATEGORIES = ["All", "Web", "App", "Robotics"];
 
 export const projects = [
+    {
+    slug: "watuchurch",
+    title: "Watu Church",
+    domain: "watuchurch.ca",
+    category: "Web",
+    year: "2026",
+    role: "Design, build & SEO",
+    blurb:
+      "Website for upcoming church: about page and contact flow, built on a hosted site platform and tuned for local search.",
+    tech: ["Web build", "SEO"],
+    live: "https://www.watuchurch.ca/",
+    shot: "/shots/watuchurch.png",
+    accent: "from-rose-500 to-indigo-600",
+    featured: true,
+  },
   {
     slug: "quienpostula",
     title: "QuienPostula",

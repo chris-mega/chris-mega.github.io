@@ -23,7 +23,7 @@ export default function Experience() {
               </h3>
               <h4>Evotrux</h4>
               <time className="block mb-2 text-sm font-normal leading-none text-fg-subtle">
-                July 2025 - Present
+                July 2025 - October 2026
               </time>
             </li>
             <li className="mb-10 ms-6">
