@@ -71,7 +71,7 @@ export default function About() {
 
               <a
                 className="mx-1.5 text-fg-subtle transition-colors duration-300 hover:text-accent"
-                href="/ChrisMelendez-2024.pdf"
+                href="/2026Chris_Melendez_resume.pdf"
                 target="_blank"
               >
                 <svg
