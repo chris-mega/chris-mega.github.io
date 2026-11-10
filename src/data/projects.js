@@ -23,6 +23,21 @@ export const projects = [
     featured: true,
   },
   {
+    slug: "maracuy",
+    title: "Maracuy",
+    domain: "maracuy.com",
+    category: "Web",
+    year: "2026",
+    role: "Founder, design & build",
+    blurb:
+      "Home for Maracuy, my North Vancouver studio building small, focused apps for teams of 2–30, alongside websites, IT services and tech workshops.",
+    tech: ["Next.js", "React", "Tailwind CSS"],
+    live: "https://www.maracuy.com/",
+    shot: "/shots/maracuy.png",
+    accent: "from-yellow-400 to-emerald-800",
+    featured: true,
+  },
+  {
     slug: "watuchurch",
     title: "Watu Church",
     domain: "watuchurch.ca",

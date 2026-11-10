@@ -12,6 +12,7 @@ import { resolve } from "node:path";
 
 const SITES = [
   { name: "echoflow", url: "https://echoflow-omega.vercel.app/" },
+  { name: "maracuy", url: "https://www.maracuy.com/" },
   { name: "quienpostula", url: "https://www.quienpostula.net/" },
   // NOTE: served over http because the https certificate is expired; switch
   // back to https once it's renewed.
