@@ -80,15 +80,19 @@ function ProjectCard({ project }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-xl">
-      <a
-        href={primary}
-        target="_blank"
-        rel="noreferrer"
-        className="block"
-        aria-label={`${project.title} preview`}
-      >
+      {primary ? (
+        <a
+          href={primary}
+          target="_blank"
+          rel="noreferrer"
+          className="block"
+          aria-label={`${project.title} preview`}
+        >
+          <Preview project={project} />
+        </a>
+      ) : (
         <Preview project={project} />
-      </a>
+      )}
 
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-fg-subtle">
@@ -98,14 +102,18 @@ function ProjectCard({ project }) {
         </div>
 
         <h3 className="mt-2 text-lg font-semibold text-foreground">
-          <a
-            href={primary}
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-accent"
-          >
-            {project.title}
-          </a>
+          {primary ? (
+            <a
+              href={primary}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-accent"
+            >
+              {project.title}
+            </a>
+          ) : (
+            project.title
+          )}
         </h3>
 
         <p className="mt-2 text-sm leading-relaxed text-fg-muted">
@@ -145,6 +153,9 @@ function ProjectCard({ project }) {
               Source
               <ArrowIcon />
             </a>
+          )}
+          {project.status && (
+            <span className="text-fg-subtle">{project.status}</span>
           )}
         </div>
       </div>

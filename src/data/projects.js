@@ -75,9 +75,10 @@ export const projects = [
     year: "2026",
     role: "Design, build & SEO",
     blurb:
-      "Campaign site for a District of North Vancouver council candidate: platform, biography, events calendar, voting guide and donation flow, built on a hosted site platform ahead of the October 2026 municipal election.",
+      "Campaign site for a District of North Vancouver council candidate: platform, biography, events calendar, voting guide and donation flow, built on a hosted site platform for the October 2026 municipal election.",
     tech: ["Web build", "Squarespace", "SEO"],
-    live: "https://www.victorianwabuisi.ca/",
+    // Site went private after the election; the screenshot is kept as an archive.
+    status: "Campaign over · site now private",
     shot: "/shots/victorianwabuisi.png",
     accent: "from-green-600 to-emerald-900",
     featured: true,
