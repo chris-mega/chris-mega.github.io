@@ -7,7 +7,22 @@
 export const CATEGORIES = ["All", "Web", "App", "Robotics"];
 
 export const projects = [
-    {
+  {
+    slug: "echoflow",
+    title: "EchoFlow",
+    domain: "echoflow-omega.vercel.app",
+    category: "Web",
+    year: "2026",
+    role: "Built & shipped solo",
+    blurb:
+      "Turns one podcast episode into a week of social posts: drafts show notes and posts, then queues the ones you approve straight into Buffer.",
+    tech: ["Next.js", "Buffer API", "AI"],
+    live: "https://echoflow-omega.vercel.app/",
+    shot: "/shots/echoflow.png",
+    accent: "from-lime-400 to-stone-800",
+    featured: true,
+  },
+  {
     slug: "watuchurch",
     title: "Watu Church",
     domain: "watuchurch.ca",

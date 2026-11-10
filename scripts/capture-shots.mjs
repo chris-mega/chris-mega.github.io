@@ -11,6 +11,7 @@ import { existsSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 
 const SITES = [
+  { name: "echoflow", url: "https://echoflow-omega.vercel.app/" },
   { name: "quienpostula", url: "https://www.quienpostula.net/" },
   // NOTE: served over http because the https certificate is expired; switch
   // back to https once it's renewed.
